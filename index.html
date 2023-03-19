@@ -218,14 +218,20 @@
               Image classifiers are information-discarding machines, by design. Yet, how these models discard
               information remains mysterious. We hypothesize that one way for image classifiers to reach high accuracy
               is to first learn to zoom to the most discriminative region in the image and then extract features from
-              there to predict image labels. We study six popular networks ranging from AlexNet to CLIP, and we show
-              that proper framing of the input image can lead to the correct classification of 99.44% of ImageNet
+              there to predict image labels. We study six popular networks ranging from <a
+                href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>
+              to <a href="https://arxiv.org/abs/2103.00020">CLIP</a>, and we show
+              that proper framing of the input image can lead to the correct classification of 99.44% of <a
+                href="https://www.image-net.org/">ImageNet</a>
               images. Furthermore, we explore the potential and limits of zoom transforms in image classification and
               uncover positional biases in various datasets, especially a strong center bias in two popular datasets:
-              ImageNet-A and ObjectNet. Finally, leveraging our insights into the potential of zoom, we propose a
+              <a href="https://github.com/hendrycks/natural-adv-examples">ImageNet-A </a>and <a
+                href="https://objectnet.dev/">ObjectNet</a>. Finally, leveraging our insights into the potential of
+              zoom, we propose a
               state-of-the-art test-time augmentation (TTA) technique that improves classification accuracy by forcing
               models to explicitly perform zoom-in operations before making predictions. Our method is more
-              interpretable, accurate, and faster than MEMO, a state-of-the-art TTA method.
+              interpretable, accurate, and faster than <a href="https://arxiv.org/abs/2110.09506">MEMO</a>, a
+              state-of-the-art TTA method.
             </p>
           </div>
         </div>
@@ -341,6 +347,7 @@
 
 
       </div>
+      <br>
       <p>
         Each subfigure shows an input image, predicted label, and confidence score from an ImageNet model (top and
         middle: <a href="https://arxiv.org/abs/1512.03385">ResNet-50</a>; bottom: <a
