@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Zoom is what you need: An empirical study of the power of zoom and spatial biases in image classification">
+  <meta name="keywords" content="CLIP, ResNet50, ViT, Representation Learning, Transfer Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zoom is what you need </title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C2XVKLMHHM');
+  </script>
+
+
+  <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+
+  <style>
+    ol li {
+      list-style: none;
+      position: relative;
+    }
+
+    ol.alpha {
+      counter-reset: alpha
+    }
+
+    ol.alpha>li:before {
+      counter-increment: alpha;
+      content: "(" counter(alpha, lower-alpha)") "
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      /* Added to set equal height rows */
+      grid-gap: 10px;
+    }
+
+    .image-grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-grid-text {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 5px;
+
+    }
+
+    .image-grid-text-left {
+      text-align: left;
+      width: 50%;
+    }
+
+    .image-grid-text-right {
+      text-align: right;
+      width: 50%;
+    }
+
+    .correct-prediction {
+      color: green;
+    }
+
+    .wrong-prediction {
+      color: red;
+    }
+
+    .grid-container {
+      display: flex;
+      height: calc(100% - 20px);
+      /* Add this rule */
+    }
+
+    .category-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* Change from space-between to space-around */
+      margin-right: 15px;
+      /* Add this rule */
+    }
+
+    .category-text {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      text-align: center;
+      margin-top: 40px;
+      /* Add this rule to adjust the position */
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Zoom <img src="./static/svg/magnifying-glass-plus-solid.svg"
+                width="50" height="23"> is what you need: An empirical study of the power of zoom and
+              spatial biases in image classification </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://taesiri.com">Mohammad Reza Taesiri</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://giangnguyen2412.github.io/">Giang Nguyen</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://habchisarra.github.io/">Sarra Habchi
+                </a><sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://asgaard.ece.ualberta.ca/">Cor-Paul Bezemer</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://anhnguyen.me/research/">Anh Nguyen</a><sup>2</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Alberta,</span>
+              <span class="author-block"><sup>2</sup>Auburn University,</span>
+              <span class="author-block"><sup>3</sup>Ubisoft</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/TBA" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/TBA" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/taesiri/ZoomIsAllYouNeed"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#TBA" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Image classifiers are information-discarding machines, by design. Yet, how these models discard
+              information remains mysterious. We hypothesize that one way for image classifiers to reach high accuracy
+              is to first learn to zoom to the most discriminative region in the image and then extract features from
+              there to predict image labels. We study six popular networks ranging from AlexNet to CLIP, and we show
+              that proper framing of the input image can lead to the correct classification of 99.44% of ImageNet
+              images. Furthermore, we explore the potential and limits of zoom transforms in image classification and
+              uncover positional biases in various datasets, especially a strong center bias in two popular datasets:
+              ImageNet-A and ObjectNet. Finally, leveraging our insights into the potential of zoom, we propose a
+              state-of-the-art test-time augmentation (TTA) technique that improves classification accuracy by forcing
+              models to explicitly perform zoom-in operations before making predictions. Our method is more
+              interpretable, accurate, and faster than MEMO, a state-of-the-art TTA method.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="d-flex" style="height: 200px;">
+
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- <h2 class="title is-3">Zoom</h2> -->
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="category-column">
+          <div class="category-text">ImageNet-A</div>
+          <div class="category-text">ImageNet-Sketch</div>
+          <div class="category-text">ImageNet-ReaL</div>
+        </div>
+        <div class="image-grid">
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">flagpole</span>
+              <span class="image-grid-text-right">30.47%</span>
+            </div>
+            <img src="./static/images/image1.png" alt="Image 1">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">robin</span>
+              <span class="image-grid-text-right">72.93%</span>
+            </div>
+            <img src="./static/images/image2.png" alt="Image 2">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">junco</span>
+              <span class="image-grid-text-right">49.06%</span>
+            </div>
+            <img src="./static/images/image3.png" alt="Image 3">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">junco</span>
+              <span class="image-grid-text-right">94.98%</span>
+            </div>
+            <img src="./static/images/image4.png" alt="Image 4">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">electric fan</span>
+              <span class="image-grid-text-right">67.10%</span>
+            </div>
+            <img src="./static/images/image5.png" alt="Image 5">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">electric fan</span>
+              <span class="image-grid-text-right">67.10%</span>
+            </div>
+            <img src="./static/images/image6.png" alt="Image 6">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">hornbill</span>
+              <span class="image-grid-text-right">10.55%</span>
+            </div>
+            <img src="./static/images/image7.png" alt="Image 7">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">hornbill</span>
+              <span class="image-grid-text-right">89.14%</span>
+            </div>
+            <img src="./static/images/image8.png" alt="Image 8">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">impala</span>
+              <span class="image-grid-text-right">65.63%</span>
+            </div>
+            <img src="./static/images/image9.png" alt="Image 9">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left wrong-prediction">gazelle</span>
+              <span class="image-grid-text-right">40.51%</span>
+            </div>
+            <img src="./static/images/image10.png" alt="Image 10">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">magpie</span>
+              <span class="image-grid-text-right">60.23%</span>
+            </div>
+            <img src="./static/images/image11.png" alt="Image 11">
+          </div>
+          <div class="image-grid-item">
+            <div class="image-grid-text">
+              <span class="image-grid-text-left correct-prediction">magpie</span>
+              <span class="image-grid-text-right">83.78%</span>
+            </div>
+            <img src="./static/images/image12.png" alt="Image 12">
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <p>
+        Each subfigure shows an input image, predicted label, and confidence score from an ImageNet model (top and
+        middle: <a href="https://arxiv.org/abs/1512.03385">ResNet-50</a>; bottom: <a
+          href="https://arxiv.org/abs/2010.11929">ViT-B/32</a>).
+        With the standard center-crop image transform, all 3 samples were <span
+          class="wrong-prediction">misclassified</span> (left-most column).
+        Adjusting the framing by zooming in or out leads to <span class="correct-prediction">correct</span> predictions.
+      </p>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is forked from the
+              <a href="https://nerfies.github.io/">Nerfies website</a> and
+              <a href="https://github.com/nerfies/nerfies.github.io">source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
