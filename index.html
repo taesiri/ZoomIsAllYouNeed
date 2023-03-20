@@ -19,11 +19,8 @@
     gtag('config', 'G-573GPBEL8Q');
   </script>
 
-
   <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
-
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
@@ -240,10 +237,6 @@
     </div>
   </section>
 
-  <div class="d-flex" style="height: 200px;">
-
-  </div>
-
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
@@ -343,20 +336,100 @@
             <img src="./static/images/image12.png" alt="Image 12">
           </div>
         </div>
-
-
-
-
       </div>
       <br>
       <p>
-        Each subfigure shows an input image, predicted label, and confidence score from an ImageNet model (top and
-        middle: <a href="https://arxiv.org/abs/1512.03385">ResNet-50</a>; bottom: <a
+        Each subfigure shows an input image, predicted label, and confidence score from an ImageNet-trained classifier
+        (top and middle: <a href="https://arxiv.org/abs/1512.03385">ResNet-50</a>; bottom: <a
           href="https://arxiv.org/abs/2010.11929">ViT-B/32</a>).
         With the standard center-crop image transform, all 3 samples were <span
           class="wrong-prediction">misclassified</span> (left-most column).
         Adjusting the framing by zooming in or out leads to <span class="correct-prediction">correct</span> predictions.
       </p>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method Overview</h2>
+          <div class="content has-text-justified">
+            <p>
+              Our method involves a zooming process that combines resizing and cropping operations. First, we resize the
+              image so that its smaller dimension matches a target scale (S), and then divide it into 3x3 patches. A
+              224x224px patch is extracted from the center of each patch, with zero padding added if necessary. We
+              demonstrate that this simple approach is sufficient to solve up to 99.44% of the images in the ImageNet
+              dataset.
+            </p>
+          </div>
+          <img src="./static/images/Overview.png" alt="Zooming" style="width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results</h2>
+          <div class="content has-text-justified">
+            <p>
+              To understand the potential of using zooming to improve image classification accuracy, first, we establish
+              an upper bound (i.e., when an "optimal" zoom is given). That is, we apply 36 scales * 9 anchors = 324 zoom
+              transformations to each image to generate 324 zoomed versions of the same input. We then feed
+              all 324 versions to each network and label an image "correctly classified given the optimal zoom" if at
+              least 1 of the 324 is correctly labeled.
+
+              This experiment also importantly informs the community of the type of image that cannot be correctly
+              labeled even with an optimal zooming strategy.
+            </p>
+            <p>
+              On in-distribution data (ImageNet and ImageNet-ReaL) there exists a substantial improvement when models
+              are provided with
+              an optimal zoom, either selected from 36 (b) or 324 pre-defined zoom crops (c).
+              In contrast, <span style="background-color:#D3D3D3">OOD benchmarks</span>
+              still pose a significant challenge to optimal zooming
+              as none of the models (except CLIP) can reach ≥80% accuracy.
+            </p>
+
+            <img src="./static/images/Table1.png" alt="Zooming" style="width: 100%; height: auto;">
+          </div>
+          <br>
+          <div class="content has-text-justified">
+
+            <p>State-of-the-art test-time augmentation methods, such as MEMO, finetune a pre-trained classifier at
+              <em>test</em> time
+              to achieve a more accurate prediction. Specifically, MEMO attempts to find a network that produces a
+              low-entropy predicted label over a set of <em>K</em>=16 augmented versions of the test image <em>I</em>
+              and then runs this finetuned model on <em>I</em> again to produce the final prediction. While improving
+              accuracy, MEMO requires a pre-defined set of diverse augmentation transforms (e.g., sheer, rotate, and
+              solarize in <a href="https://arxiv.org/abs/1912.02781">AugMix</a>). Yet, the hyperparameters
+              for each type of transform are hard-coded, and the reasons why some of such transform help classification
+              are unknown.
+            </p>
+            <p>Our goal is to improve MEMO's accuracy and interpretability by replacing all AugMix transforms with only
+              zoom-in transforms. Intuitively, we let a classifier first look at all zoomed-in frames of the input image
+              (at different zoom scales and locations) and then make up its mind to achieve the most confident
+              prediction.</p>
+
+          </div>
+          <br>
+          <div class="content has-text-justified">
+            <p>
+              Overall, MEMO + <span style="font-style: italic;">RRC</span> (i.e., random zoom-in transforms) <span
+                style="font-weight: bold">outperforms</span>
+              baselines and the
+              default MEMO.
+            </p>
+
+            <img src="./static/images/Table2.png" alt="Zooming" style="width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
