@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 325.54788 271.29828"
+   height="271.29828"
+   width="325.54788"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath14"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path12"
+         d="M 0,0 H 612 V 792 H 0 Z" /></clipPath><clipPath
+       id="clipPath24"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path22"
+         d="M 0,0 H 612 V 792 H 0 Z" /></clipPath></defs><g
+     clip-path="url(#clipPath14)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-407.69787,695.59613)"
+     id="g10"><g
+       id="g16" /><g
+       id="g18"><g
+         clip-path="url(#clipPath24)"
+         id="g20"><text
+           id="text28"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,711.631)"><tspan
+             id="tspan26"
+             y="0"
+             x="0 5.2901406 9.7135353 14.694835 17.464437 24.936388 29.917688 36.891506 42.181648 47.162949 52.144249 55.461796 63.49165 67.915047 72.33844 76.761833 81.743134 85.060677 89.48407 93.758026 101.77792 105.09547 113.39431 119.76041 124.74171 131.10782 135.5312 140.51251 145.4938 148.81136 153.08531 158.0168 162.44019 165.20979 167.9794 172.96069 180.99055 188.74146 193.16486 195.93445 200.91576 205.89705 210.87836 217.80237 222.78366 230.81352 235.23691 243.26677 246.58432 253.77731 257.09485 259.86447 263.18201 267.60541 270.375 275.35629 279.77969 287.80954 294.40479 297.17441 302.34497 305.66254 312.30759 315.07718 320.0585 328.08835 335.83923 340.82056 345.80185 350.22525 352.99484 360.23764 366.88272 371.86401 379.6149 384.59622 389.01959 392.33716 396.76056 404.79041 407.56 415.58984 418.35947 423.34076 430.81271 435.79401 439.11157 443.53494 446.85251 451.8338 459.86365 464.84494 469.26834 473.1438 477.5672 480.33679 483.10638 488.08771 492.51111">Table4:Top-1accuracy(%)ofaggregationmethodsonanIN-trainedViT-B/32model.Comparedtothe1-cropbaseline,</tspan></text>
+<text
+           id="text32"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,699.676)"><tspan
+             id="tspan30"
+             y="0"
+             x="0 4.4233942 9.4046946 14.385994 17.703541 21.977495 26.908983 31.332376 34.101978 36.871582 41.852882 49.444386 53.867779 58.849079 63.830379 71.581284 74.898827 77.668427 85.259933 88.029533 91.347076 95.770477 100.75177 104.62723 107.94477 112.92607 116.24361 123.99452 130.49013 134.91353 139.89484 144.87613 148.75159 151.52118 155.39664 158.16624 162.58963 167.57094 170.34053 173.11014 180.70164 185.68294 188.45255 192.87593 195.64554 200.62685">aggregatingzoom-intransformsconsistentlyyields</tspan></text>
+<text
+           id="text36"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,257.2245,699.676)"><tspan
+             id="tspan34"
+             y="0"
+             x="0 2.7696028 10.520506 15.501805 18.819351 23.651213 28.483074 32.906467">improved</tspan></text>
+<text
+           id="text40"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,297.7225,699.676)"><tspan
+             id="tspan38"
+             y="0"
+             x="0 4.4233942 8.8467884 13.270184 18.251484 21.569029 25.992424 30.266378 37.867844 42.849144 50.440643 53.75819 60.951187 64.26873 71.461731 76.562584 83.755577 93.558777 98.340828 103.32213">accuracyonIN-A,ONbut</tspan></text>
+<text
+           id="text44"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,406.4344,699.676)"><tspan
+             id="tspan42"
+             y="0"
+             x="0 7.0933714 12.074671 15.392217 19.267668">worse</tspan></text>
+<text
+           id="text48"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,432.7356,699.676)"><tspan
+             id="tspan46"
+             y="0"
+             x="0 4.4233942 8.8467884 13.270184 18.251484 21.569029 25.992424 30.266378 37.85788 42.83918 50.430679 53.748226 60.941223 64.258774 73.523987 77.94738 82.92868 90.520187 93.83773 101.03072 104.34827 109.88748">accuracyonIN-RandIN-S.</tspan></text>
+<text
+           id="text52"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,687.721)"><tspan
+             id="tspan50"
+             y="0"
+             x="0 3.8754513 8.8567514 13.838052 21.031048 24.348595 29.329895 34.311195">zoom-224</tspan></text>
+<text
+           id="text56"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,91.895,687.721)"><tspan
+             id="tspan54"
+             y="0"
+             x="0 3.3175459 7.7409401 11.058486 15.48188 18.799427 25.165527 27.935131 35.407082 38.176682 43.157982 50.072029 53.947479 58.370872 63.631126 68.612427 74.420624 78.844017 83.825317 88.806618 99.048172 101.81777 105.13531 109.55872 114.54001 118.41547 121.73301 126.71431 130.03186 137.78276 144.14886 148.57225">referstothesetofzoomtransformsat</tspan></text>
+<text
+           id="text60"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,245.726,687.721)"><tspan
+             id="tspan58"
+             y="0"
+             x="0">S</tspan></text>
+<text
+           id="text64"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,255.177,687.721)"><tspan
+             id="tspan62"
+             y="0"
+             x="0 10.518513 15.499813 20.481113">=224</tspan></text>
+<text
+           id="text68"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,280.637,687.721)"><tspan
+             id="tspan66"
+             y="0"
+             x="0 5.5790558 11.118261 15.541656 22.4557 27.74584 32.169235 36.752033">.SeeTab.</tspan></text>
+<text
+           id="text72"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,322.3703,687.721)"><tspan
+             id="tspan70"
+             y="0"
+             x="0 7.192997">A2</tspan></text>
+<text
+           id="text76"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,337.0353,687.721)"><tspan
+             id="tspan74"
+             y="0"
+             x="0 3.3175459 8.2988462 14.107041 21.857944 26.839245 30.15679 37.070835 40.388382 44.811775 48.687225 53.668526 56.438129 59.207733 63.083183">formoreresults.</tspan></text>
+<g
+           transform="matrix(0.92636,0,0,0.92636,50.112,673.8025)"
+           id="g78"><path
+             id="path80"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 507.655" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g82"><text
+             id="text86"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,107.606,666.175)"><tspan
+               id="tspan84"
+               y="0"
+               x="0 3.3175459 7.7409401 64.218918 67.536469 72.517769">(a)(b)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g88"><text
+             id="text92"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,185.932,666.175)"><tspan
+               id="tspan90"
+               y="0"
+               x="0 3.8754513 8.8567514 13.838052 21.031048 24.348595 27.118196">zoom-in</tspan></text>
+</g><g
+           transform="matrix(-0.92636,0,0,0.92636,430.7144,45.6526)"
+           id="g94"><text
+             id="text98"
+             style="font-variant:normal;font-size:9.96259975px;font-family:FontAwesome5Free;-inkscape-font-specification:FontAwesome5Free-Solid;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,230.485,666.175)"><tspan
+               id="tspan96"
+               y="0"
+               x="0">�</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g100"><text
+             id="text104"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,276.173,666.175)"><tspan
+               id="tspan102"
+               y="0"
+               x="0 3.3175459 7.7409401">(c)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g106"><text
+             id="text110"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,289.722,666.175)"><tspan
+               id="tspan108"
+               y="0"
+               x="0 3.8754513 8.8567514 13.838052 21.031048 24.348595 29.329895 34.311195">zoom-out</tspan></text>
+</g><g
+           transform="matrix(-0.92636,0,0,0.92636,632.5701,45.6526)"
+           id="g112"><text
+             id="text116"
+             style="font-variant:normal;font-size:9.96259975px;font-family:FontAwesome5Free;-inkscape-font-specification:FontAwesome5Free-Solid;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,339.436,666.175)"><tspan
+               id="tspan114"
+               y="0"
+               x="0">�</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g118"><text
+             id="text122"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,353.085,666.175)"><tspan
+               id="tspan120"
+               y="0"
+               x="0 3.3175459 8.2988462">(d)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g124"><text
+             id="text128"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,367.192,666.175)"><tspan
+               id="tspan126"
+               y="0"
+               x="0 3.8754513 8.8567514 13.838052 21.031048 24.348595 29.329895 34.311195">zoom-224</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g130"><text
+             id="text134"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,428.95,666.175)"><tspan
+               id="tspan132"
+               y="0"
+               x="0 3.3175459 7.7409401 13.549136 18.530436 21.847982 26.271376 29.588923 34.570221 60.323544 63.64109 66.958633 72.76683 77.748131 82.729431 86.046974 90.470367 93.787918 98.769218 106.24117">(e)5-crop(f)10-crop[</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g136"><text
+             id="text140"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,538.5087,666.175)"><tspan
+               id="tspan138"
+               y="0"
+               x="0 4.9812999">26</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g142"><text
+             id="text146"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,548.4713,666.175)"><tspan
+               id="tspan144"
+               y="0"
+               x="0">]</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,50.112,657.6283)"
+           id="g148"><path
+             id="path150"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 507.655" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g152"><text
+             id="text156"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,649.218)"><tspan
+               id="tspan154"
+               y="0"
+               x="0 7.192997 12.174297 15.491843 20.473143 24.348595 28.771988">Dataset</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g158"><text
+             id="text162"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,100.134,649.218)"><tspan
+               id="tspan160"
+               y="0"
+               x="0 4.9812999 8.2988462 12.72224 16.039785 21.021086">1-crop</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g164"><text
+             id="text168"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSS10;-inkscape-font-specification:CMSS10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,159.232,649.218)"><tspan
+               id="tspan166"
+               y="0"
+               x="0 7.9142895 12.700322 66.552162 74.466454 78.893829 83.679863 119.4994 127.41368 132.19972 154.61955 162.53384 166.96123 171.74725 194.71503 202.62932 207.41536 226.58739 234.50168 238.93901 243.71509 263.44501 271.35931 276.14532 295.32733 303.24161 307.66901 312.45502">maxmeanmaxmeanmaxmeanmaxmean</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,643.7393)"
+           id="g170"><path
+             id="path172"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g174"><text
+             id="text178"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSS10;-inkscape-font-specification:CMSS10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,491.834,649.218)"><tspan
+               id="tspan176"
+               y="0"
+               x="0 7.9142895 12.700322 34.741577 42.655869 47.083248 51.869282">maxmean</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,50.112,641.92)"
+           id="g180"><path
+             id="path182"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 507.655" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g184"><text
+             id="text188"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,632.261)"><tspan
+               id="tspan186"
+               y="0"
+               x="0 3.3175459 47.631191 52.612492 57.593792 60.084442 65.065742 89.284821 94.266121 99.247421 101.73807 106.71937 114.19132">IN75.7574.35(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g190"><text
+             id="text194"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,173.5989,632.261)"><tspan
+               id="tspan192"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-1.40</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g196"><text
+             id="text200"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.351,632.261)"><tspan
+               id="tspan198"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g202"><text
+             id="text206"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,209.623,632.261)"><tspan
+               id="tspan204"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">79.31</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g208"><text
+             id="text212"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,234.53,632.261)"><tspan
+               id="tspan210"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g214"><text
+             id="text218"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,237.8475,632.261)"><tspan
+               id="tspan216"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+3.56</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g220"><text
+             id="text224"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.901,632.261)"><tspan
+               id="tspan222"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 56.119328 61.100624 66.081924 68.572578 73.553879 90.490295 95.471596 100.4529 102.94354 107.92484 124.86127 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 193.60321 198.5845 203.56581 206.05646 211.03775">)71.4869.4772.6673.6777.3377.73</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,628.031)"
+           id="g226"><path
+             id="path228"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g230"><text
+             id="text234"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,632.261)"><tspan
+               id="tspan232"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 40.099464 45.080765 50.062065 52.552715 57.534016">77.3077.87</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g236"><text
+             id="text240"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,620.306)"><tspan
+               id="tspan238"
+               y="0"
+               x="0 6.6450543 11.068449 15.491843 47.631191 52.612492 57.593792 60.084442 65.065742 89.284821 94.266121 99.247421 101.73807 106.71937 114.19132">ReaL81.8980.22(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g242"><text
+             id="text246"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,173.5989,620.306)"><tspan
+               id="tspan244"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-1.67</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g248"><text
+             id="text252"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.351,620.306)"><tspan
+               id="tspan250"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g254"><text
+             id="text258"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,209.623,620.306)"><tspan
+               id="tspan256"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">85.97</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g260"><text
+             id="text264"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,234.53,620.306)"><tspan
+               id="tspan262"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g266"><text
+             id="text270"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,237.8475,620.306)"><tspan
+               id="tspan268"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+4.08</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g272"><text
+             id="text276"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.901,620.306)"><tspan
+               id="tspan274"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 56.119328 61.100624 66.081924 68.572578 73.553879 90.490295 95.471596 100.4529 102.94354 107.92484 124.86127 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 193.60321 198.5845 203.56581 206.05646 211.03775">)77.9576.2879.2580.3183.2483.80</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,616.9564)"
+           id="g278"><path
+             id="path280"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g282"><text
+             id="text286"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,620.306)"><tspan
+               id="tspan284"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 40.099464 45.080765 50.062065 52.552715 57.534016">83.1783.87</tspan></text>
+</g><path
+           id="path288"
+           style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 50.112,605.8818 h 40.80153 v 11.07463 H 50.112 Z" /><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g290"><text
+             id="text294"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,608.35)"><tspan
+               id="tspan292"
+               y="0"
+               x="0 3.3175459 10.510543 13.828089 52.612492 57.593792 60.084442 65.065742">IN-A9.64</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g296"><text
+             id="text300"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,138.092,608.35)"><tspan
+               id="tspan298"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">24.69</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g302"><text
+             id="text306"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,162.998,608.35)"><tspan
+               id="tspan304"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g308"><text
+             id="text312"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,166.3155,608.35)"><tspan
+               id="tspan310"
+               y="0"
+               x="0 5.6189065 10.600206 15.581507 18.072157 23.053457">+15.05</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g314"><text
+             id="text318"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.3503,608.35)"><tspan
+               id="tspan316"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 40.179165">)14.29(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g320"><text
+             id="text324"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,237.847,608.35)"><tspan
+               id="tspan322"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+4.65</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g326"><text
+             id="text330"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.9005,608.35)"><tspan
+               id="tspan328"
+               y="0"
+               x="0 20.253965 25.235266 27.725916 32.707214 61.100624 66.081924 68.572578 73.553879 95.471596 100.4529 102.94354 107.92484 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 198.5845 203.56581 206.05646 211.03775">)7.795.488.127.3912.199.88</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,605.8818)"
+           id="g332"><path
+             id="path334"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g336"><text
+             id="text340"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,608.35)"><tspan
+               id="tspan338"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 45.080765 50.062065 52.552715 57.534016">12.329.67</tspan></text>
+</g><path
+           id="path342"
+           style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 50.112,594.8071 h 40.80153 v 11.07463 H 50.112 Z" /><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g344"><text
+             id="text348"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,596.395)"><tspan
+               id="tspan346"
+               y="0"
+               x="0 3.3175459 10.510543 13.828089 47.631191 52.612492 57.593792 60.084442 65.065742 89.284821 94.266121 99.247421 101.73807 106.71937 114.19132">IN-R41.2939.90(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g350"><text
+             id="text354"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,173.5989,596.395)"><tspan
+               id="tspan352"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-1.39</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g356"><text
+             id="text360"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.351,596.395)"><tspan
+               id="tspan358"
+               y="0"
+               x="0 17.574026 22.555326 27.536627 30.027277 35.008575 42.480526">)40.06(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g362"><text
+             id="text366"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,240.149,596.395)"><tspan
+               id="tspan364"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-1.23</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g368"><text
+             id="text372"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.9011,596.395)"><tspan
+               id="tspan370"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 56.119328 61.100624 66.081924 68.572578 73.553879 90.490295 95.471596 100.4529 102.94354 107.92484 124.86127 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 193.60321 198.5845 203.56581 206.05646 211.03775">)39.0536.2139.5239.2843.9043.17</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,594.8071)"
+           id="g374"><path
+             id="path376"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g378"><text
+             id="text382"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,596.395)"><tspan
+               id="tspan380"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">44.31</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g384"><text
+             id="text388"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,529.373,596.395)"><tspan
+               id="tspan386"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">43.28</tspan></text>
+</g><path
+           id="path390"
+           style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 50.112,583.7325 h 40.80153 v 11.07463 H 50.112 Z" /><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g392"><text
+             id="text396"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,584.44)"><tspan
+               id="tspan394"
+               y="0"
+               x="0 3.3175459 10.510543 13.828089 47.631191 52.612492 57.593792 60.084442 65.065742 89.284821 94.266121 99.247421 101.73807 106.71937 114.19132">IN-S26.8319.74(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g398"><text
+             id="text402"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,173.5989,584.44)"><tspan
+               id="tspan400"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-7.09</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g404"><text
+             id="text408"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.351,584.44)"><tspan
+               id="tspan406"
+               y="0"
+               x="0 17.574026 22.555326 27.536627 30.027277 35.008575 42.480526">)20.89(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g410"><text
+             id="text414"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,240.149,584.44)"><tspan
+               id="tspan412"
+               y="0"
+               x="0 3.3175459 8.2988462 10.789495 15.770796">-5.94</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g416"><text
+             id="text420"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.9011,584.44)"><tspan
+               id="tspan418"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 56.119328 61.100624 66.081924 68.572578 73.553879 90.490295 95.471596 100.4529 102.94354 107.92484 124.86127 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 193.60321 198.5845 203.56581 206.05646 211.03775">)22.3719.2525.0625.2128.7228.66</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,583.7325)"
+           id="g422"><path
+             id="path424"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g426"><text
+             id="text430"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,584.44)"><tspan
+               id="tspan428"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">28.94</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g432"><text
+             id="text436"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,529.373,584.44)"><tspan
+               id="tspan434"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">28.76</tspan></text>
+</g><path
+           id="path438"
+           style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 50.112,572.657 h 40.80153 v 11.07463 H 50.112 Z" /><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g440"><text
+             id="text444"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,56.09,572.485)"><tspan
+               id="tspan442"
+               y="0"
+               x="0 7.192997 47.631191 52.612492 57.593792 60.084442 65.065742 86.983459 91.96476 96.94606 99.436714 104.41801 111.88996">ON30.8932.88(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g446"><text
+             id="text450"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,171.2975,572.485)"><tspan
+               id="tspan448"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+1.99</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g452"><text
+             id="text456"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,194.351,572.485)"><tspan
+               id="tspan454"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g458"><text
+             id="text462"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,209.623,572.485)"><tspan
+               id="tspan460"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">33.92</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g464"><text
+             id="text468"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,234.53,572.485)"><tspan
+               id="tspan466"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g470"><text
+             id="text474"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,237.8475,572.485)"><tspan
+               id="tspan472"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+3.03</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g476"><text
+             id="text480"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,260.901,572.485)"><tspan
+               id="tspan478"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 56.119328 61.100624 66.081924 68.572578 73.553879 90.490295 95.471596 100.4529 102.94354 107.92484 124.86127 129.84256 134.82387 137.31451 142.29582 159.23224 164.21353 169.19484 171.68549 176.66678 193.60321 198.5845 203.56581 206.05646 211.03775">)22.5619.5122.7522.7226.9624.98</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,451.212,572.657)"
+           id="g482"><path
+             id="path484"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 11.955" /></g><g
+           transform="matrix(0.92636,0,0,0.92636,3.690248,45.6526)"
+           id="g486"><text
+             id="text490"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.274,572.485)"><tspan
+               id="tspan488"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 40.099464 45.080765 50.062065 52.552715 57.534016">27.1424.97</tspan></text>
+</g><g
+           transform="matrix(0.92636,0,0,0.92636,50.112,570.6986)"
+           id="g492"><path
+             id="path494"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 507.655" /></g><text
+           id="text498"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,540.442)"><tspan
+             id="tspan496"
+             y="0"
+             x="0 2.7696028 7.7509027 12.174297">then</tspan></text>
+<text
+           id="text502"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,69.348,540.442)"><tspan
+             id="tspan500"
+             y="0"
+             x="0 4.2739553 9.2552557 14.236555 17.006159 21.987457">chains</tspan></text>
+<text
+           id="text506"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,97.291,540.442)"><tspan
+             id="tspan504"
+             y="0"
+             x="0 2.7696028 7.7509027 12.174297 22.007383 24.776987 29.758286 34.739586 39.162979 41.932583 46.913883 51.337276 56.737007 59.506611 66.560127 70.983528 74.301071 78.724464 83.147858 85.917465">themtogethertocreate</tspan></text>
+<text
+           id="text510"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,189.717,540.442)"><tspan
+             id="tspan508"
+             y="0"
+             x="0">K</tspan></text>
+<text
+           id="text514"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,201.658,540.442)"><tspan
+             id="tspan512"
+             y="0"
+             x="0 10.518513 15.499813">=16</tspan></text>
+<text
+           id="text518"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,224.217,540.442)"><tspan
+             id="tspan516"
+             y="0"
+             x="0 4.9812999 9.1556292 18.430811 22.854204 27.835505 32.816803 40.567707 44.9911 49.972401 52.742004 57.165398">newaugmented</tspan></text>
+<text
+           id="text522"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,528.486)"><tspan
+             id="tspan520"
+             y="0"
+             x="0 2.7696028 10.520506 14.9439 19.9252 24.348595 30.714695 34.032242 38.306198 43.287498 47.710892 55.461796 60.443092 63.212696 67.636093 74.00219 76.771797 84.243744 91.436745 96.418045 101.39935 105.82274 110.80404 115.78534 118.55494">images(examplesinAppendix</tspan></text>
+<text
+           id="text526"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,176.1389,528.486)"><tspan
+             id="tspan524"
+             y="0"
+             x="0 7.192997 9.6836472">D.5</tspan></text>
+<text
+           id="text530"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,190.8038,528.486)"><tspan
+             id="tspan528"
+             y="0"
+             x="0 3.3175459">).</tspan></text>
+<text
+           id="text534"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,62.067,516.356)"><tspan
+             id="tspan532"
+             y="0"
+             x="0 8.607686 18.141895 21.45944 25.882835 30.864136 33.633739 38.057133 42.480526 52.004772 59.197769 64.17907 69.16037 78.01712 80.78672 90.878838 95.860138">WereplaceAugMixby</tspan></text>
+<text
+           id="text538"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,168.019,516.356)"><tspan
+             id="tspan536"
+             y="0"
+             x="0 5.97756 11.95512 17.93268 23.91024 29.8878 35.86536 41.842918 47.82048 53.798038 59.7756 65.753159 71.730721 77.708282 83.685837 89.663399 95.640961">RandomResizedCrop</tspan></text>
+<text
+           id="text542"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,274.746,516.356)"><tspan
+             id="tspan540"
+             y="0"
+             x="0">[</tspan></text>
+<text
+           id="text546"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,278.0635,516.356)"><tspan
+             id="tspan544"
+             y="0"
+             x="0">3</tspan></text>
+<text
+           id="text550"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,283.0448,516.356)"><tspan
+             id="tspan548"
+             y="0"
+             x="0">]</tspan></text>
+<text
+           id="text554"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,504.401)"><tspan
+             id="tspan552"
+             y="0"
+             x="0">(</tspan></text>
+<text
+           id="text558"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,53.43,504.401)"><tspan
+             id="tspan556"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text562"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,71.362,504.401)"><tspan
+             id="tspan560"
+             y="0"
+             x="0 3.3175459 8.6674623 15.860459 20.841759 23.611362 28.034756 35.885284 38.654888 43.078281 47.959957 52.38335 59.118069 66.400726 69.718277 74.14167 79.122971 84.104271 89.085571 99.69574 104.11913 107.43668 112.41798 120.26851 125.24981 131.42662 134.19623 139.17752 146.46019 149.22978 154.21109 159.19238 164.17369 169.80255 172.57216 180.32306 184.74646 189.72775 197.02037 200.33792 203.10753 205.59818 210.02158 212.51222">),whichtakesarandomcropoftheinputimage(i.e.,</tspan></text>
+<text
+           id="text566"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,492.446)"><tspan
+             id="tspan564"
+             y="0"
+             x="0 4.4233942 10.530468 18.28137 21.598917 26.02231 31.003611 35.984913 40.966209 52.054585 54.824188 59.805489 64.228882 68.652275 71.421883 74.191483 79.172783 84.154083 90.191422 93.508965 97.932358 102.91366 107.89496 112.87626 123.96463 127.28218 131.70557 136.12897 138.89857 143.32196 148.30327 153.28456 158.26587 161.03546 165.45886 172.10391 176.52731 179.84485 184.26825 188.69165 194.72897 199.15237 204.13367 212.45244 220.21332 223.53085 227.95425 232.93555">atarandomlocation,randomrectangulararea,andaran-</tspan></text>
+<text
+           id="text570"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,480.49)"><tspan
+             id="tspan568"
+             y="0"
+             x="0 4.9812999 9.9625998 20.762058 25.185453 29.060904 34.042206 38.465599 42.888992 48.717113 52.03466 56.458054 59.227657 61.997261 66.978561 73.344658 77.768059 82.749359 90.789177 93.558777 98.540077 102.96347 110.99332 114.31087 118.73427 122.60972 125.37932 129.80272 134.2261 141.16008 143.92969 149.74783 152.51744 160.55727 163.32686 168.30817 175.78012 181.31932 186.15118 190.57457 198.6144 203.59569 208.577">domaspectratio)andthenresizesittothefxed224</tspan></text>
+<text
+           id="text574"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,263.669,480.49)"><tspan
+             id="tspan572"
+             y="0"
+             x="0">⇥</tspan></text>
+<text
+           id="text578"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,271.418,480.49)"><tspan
+             id="tspan576"
+             y="0"
+             x="0 4.9812999 9.9625998">224</tspan></text>
+<text
+           id="text582"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,468.535)"><tspan
+             id="tspan580"
+             y="0"
+             x="0 3.3175459 6.0871487 8.5777988 13.001193 15.491843 21.319963 24.089567 29.070868 36.672329 41.653629 46.077026 48.846626 55.939999 60.921299 64.238846 72.388252 75.157852 80.139153 85.120453 90.101753 96.039467 99.914917 102.68452 107.10791 111.5313 114.84885">(i.e.,thenetworkinputsize).</tspan></text>
+<text
+           id="text586"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,172.582,468.535)"><tspan
+             id="tspan584"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text590"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,193.685,468.535)"><tspan
+             id="tspan588"
+             y="0"
+             x="0 4.9812999 9.4046946 13.280146 16.049749 20.473143 24.896538 27.66614 30.435743 38.585152 41.354752 49.105656 54.086956 56.85656 61.279953 69.030853 73.454247 78.435547 81.205154 88.248711">basicallyimplementsa</tspan></text>
+<text
+           id="text594"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,456.58)"><tspan
+             id="tspan592"
+             y="0"
+             x="0 3.3175459 7.7409401 12.72224 17.703541 22.684839 32.926392 37.349789 42.331089 47.312386 55.06329 58.380836 61.15044 68.622391 71.939934 76.921234 81.902534 86.325928 89.095535 91.865135 96.846436 104.31838 107.63593 111.90989 116.89119 121.31458 129.06548 134.04678 136.81639 141.23978 147.60588 150.37549 157.84743 165.04044 170.02173 175.00304 179.42642 184.40773 189.38902 192.15863">randomzoom-infunction(examplesinAppendix</tspan></text>
+<text
+           id="text598"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,249.7426,456.58)"><tspan
+             id="tspan596"
+             y="0"
+             x="0 7.192997 9.6836472">D.5</tspan></text>
+<text
+           id="text602"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,264.4075,456.58)"><tspan
+             id="tspan600"
+             y="0"
+             x="0 3.3175459">).</tspan></text>
+<text
+           id="text606"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,62.067,444.449)"><tspan
+             id="tspan604"
+             y="0"
+             x="0 8.607686 15.641282 20.064676 25.045977 32.796879 37.778179 42.201572 45.519119 52.562679 55.332279 60.31358 67.347176 72.328476 75.646019 78.415627 83.396927 86.166527 91.147827 95.57122 100.95103 109.80778 115.89493 124.75168 134.56483">WecomparetheoriginalMEMO[</tspan></text>
+<text
+           id="text610"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,199.9494,444.449)"><tspan
+             id="tspan608"
+             y="0"
+             x="0 4.9812999">57</tspan></text>
+<text
+           id="text614"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,209.912,444.449)"><tspan
+             id="tspan612"
+             y="0"
+             x="0 5.9277468 9.2452927 16.43829 21.41959 24.189194 28.612587 36.20409 41.185387 45.060841 49.484234 55.979851 63.172848 68.154144 73.135445">](whichusesAug-</tspan></text>
+<text
+           id="text618"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,432.494)"><tspan
+             id="tspan616"
+             y="0"
+             x="0 8.8567514 11.626354 16.607655 24.338633 28.762026 33.743328 43.148022 48.129322 53.110622 60.841599 65.673462 70.096855 73.414398 77.289848 80.059456 85.040756 94.435486 97.205086 102.18639 106.60978 113.79282 118.77412 122.64957 127.07296">Mix)andourversionthatuses</tspan></text>
+<text
+           id="text622"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,185.48,432.494)"><tspan
+             id="tspan620"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text626"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,207.828,432.494)"><tspan
+             id="tspan624"
+             y="0"
+             x="0 4.9812999 14.376032 17.693577 29.300007 33.7234 38.7047 48.109394 50.878998 53.648602 61.937485 65.255028 70.236328 75.217628">onINanditsfour</tspan></text>
+<text
+           id="text630"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,420.539)"><tspan
+             id="tspan628"
+             y="0"
+             x="0 7.192997 14.385994 24.268894 29.250195 33.673588 38.654888 43.078281 48.059582 55.810486 60.233879 63.551426 68.532722 75.098076 78.415627 81.73317 88.92617 92.243713 99.436714 104.6073 107.92484 115.11784 118.43539 125.08044 130.261 133.57854 140.77155 144.08908 149.6283 154.80884 159.23224 164.21353 171.88474 179.07773 186.27074 189.58827 194.76883 203.37651 210.48981 213.80736 218.78867 221.55826 224.32787 229.0601">OODbenchmarks(IN-A,IN-R,IN-S,andON).Wefollow</tspan></text>
+<text
+           id="text634"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,408.584)"><tspan
+             id="tspan632"
+             y="0"
+             x="0 2.7696028 7.7509027 15.730946 19.606398 24.029791 31.780693 39.750774 44.024731 49.006031 53.987328 58.410725 61.728271 64.497871 72.248772 76.672173 81.653473 84.423073 88.846466 95.172714 99.048172 103.47157 106.24117 111.22247 119.76041 124.18381 131.60594 134.37555 142.9135 149.00064 153.98195 158.40533 163.38664 171.92459 176.34798 182.66428 187.08766 189.85727 195.90457">thesameexperimentalsetupasinZhangetal.[</tspan></text>
+<text
+           id="text638"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,249.3341,408.584)"><tspan
+             id="tspan636"
+             y="0"
+             x="0 4.9812999">57</tspan></text>
+<text
+           id="text642"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,259.2967,408.584)"><tspan
+             id="tspan640"
+             y="0"
+             x="0 6.8741941 10.19174 14.615134 17.105783 22.087084 24.577734">](e.g.,</tspan></text>
+<text
+           id="text646"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,396.629)"><tspan
+             id="tspan644"
+             y="0"
+             x="0">K</tspan></text>
+<text
+           id="text650"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,62.053,396.629)"><tspan
+             id="tspan648"
+             y="0"
+             x="0 10.518513 15.499813">=16</tspan></text>
+<text
+           id="text654"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,82.532,396.629)"><tspan
+             id="tspan652"
+             y="0"
+             x="0 3.3175459 8.7272377 14.266443 19.247744 23.671137 28.094532 30.864136 36.403339 40.826736 45.25013 48.019733 50.789333 55.123066 59.6959 66.888893 73.294846 76.064453 80.487846 84.363297 89.115456 91.885063 96.866364 100.18391 104.6073 111.01325 117.6583 122.0817 125.95715 133.15015 137.57355 140.34314 143.66069 148.642 155.60585 160.33809 164.76147 168.07903 170.84863 175.27202 180.25333 183.02292 188.8909 191.66049 196.6418 201.0652">).Specifcally,wetestthreeResNet-50variantsthat</tspan></text>
+<text
+           id="text658"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,384.674)"><tspan
+             id="tspan656"
+             y="0"
+             x="0 7.192997 11.616391 14.933937 21.847982 26.829281 30.146828 34.570221 37.887768 40.657372 43.974915 48.398312 51.167915 56.149212 60.572609 68.044556 73.025856 76.901306 79.670914 84.652214 92.124161 97.105461 99.875069 103.75052 106.52012 109.28972 114.27102 118.69442 123.95467 128.37807 133.35936 138.34067 146.09157 150.51495 155.49626 158.26587 162.68925 165.45886 168.22847 173.20976 180.68172 183.45131 187.87471 192.29811 197.2794 202.26071 205.0303 210.01161 214.9929 219.41631 223.29175">werepre-trainedusingdistinctaugmentationtechniques.</tspan></text>
+<text
+           id="text662"
+           style="font-variant:normal;font-size:6.97380018px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,275.893,388.289)"><tspan
+             id="tspan660"
+             y="0"
+             x="0">1</tspan></text>
+<text
+           id="text666"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,372.543)"><tspan
+             id="tspan664"
+             y="0"
+             x="0 7.192997 11.616391 15.491843 21.031048 23.800652 27.118196">Results</tspan></text>
+<text
+           id="text670"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,89.153,372.543)"><tspan
+             id="tspan668"
+             y="0"
+             x="0 6.6450543 11.626354 14.395957 22.057196 27.038496 32.019798 38.017281 46.874035 52.961182 61.817932 71.700829">BothourMEMO+</tspan></text>
+<text
+           id="text674"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,169.152,372.543)"><tspan
+             id="tspan672"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text678"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,189.767,372.543)"><tspan
+             id="tspan676"
+             y="0"
+             x="0 4.4233942 9.4046946 17.065933 19.835537 24.816837 31.930134 36.911434 40.228977 42.998581 47.979881 50.749485 55.730785 60.154179 65.603722 74.460472 80.547623 89.404373">andtheoriginalMEMO</tspan></text>
+<text
+           id="text682"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,360.588)"><tspan
+             id="tspan680"
+             y="0"
+             x="0 8.7571259 15.950123 20.931423 25.912724 34.769474 37.539078 45.66856">+AugMix[</tspan></text>
+<text
+           id="text686"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,99.0981,360.588)"><tspan
+             id="tspan684"
+             y="0"
+             x="0 4.9812999">57</tspan></text>
+<text
+           id="text690"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,109.0607,360.588)"><tspan
+             id="tspan688"
+             y="0"
+             x="0 6.4557648 10.879159 15.860459 20.841759 24.717211 27.486813 31.362265 34.131866 38.555264 43.536564 46.306164 49.075768 57.20525 62.18655 67.167847 69.937454 74.918755 79.342148 82.659691 85.977242 90.958534 94.276085 105.16521 107.93481 112.91611 120.47772 125.45902 129.88242 133.75787 138.18126 140.95087 143.72047 148.70177 156.27335 164.02425 169.00554 173.98685">]consistentlyoutperformthebaselinemod-</tspan></text>
+<text
+           id="text694"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,348.633)"><tspan
+             id="tspan692"
+             y="0"
+             x="0 4.4233942 7.192997 11.068449 16.55784 23.750839 28.732138 31.501741 35.925137 43.805553 48.786854 56.667271 61.648567 66.629868 72.298592 77.279892 81.155342 88.477852 97.334602 103.42175 112.2785 119.4715 124.8513 129.8326 137.71301 142.13641 144.90602 150.57474 155.86488 160.69673 168.01926 173.00055 177.42395 180.19354 184.61694 188.49239 192.91579 195.68539 202.45996 205.7775 211.06764 215.49104 220.07384">els,whichdonotuseMEMO,onallfvedatasets(Tab.</tspan></text>
+<text
+           id="text698"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,275.5756,348.633)"><tspan
+             id="tspan696"
+             y="0"
+             x="0">5</tspan></text>
+<text
+           id="text702"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,280.5569,348.633)"><tspan
+             id="tspan700"
+             y="0"
+             x="0 3.3175459">).</tspan></text>
+<text
+           id="text706"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,336.678)"><tspan
+             id="tspan704"
+             y="0"
+             x="0 6.0871487 11.068449 15.491843 21.240263 24.009867 27.885317 33.474335 40.667332 45.648632 50.072029 58.032146 62.45554 67.436836 75.187744 80.169044 82.938644 87.919945 92.343338 100.30346 107.49645 110.26606 113.03566 120.99577 129.85252 135.93968 144.79643 151.98943 157.45889 161.88229 166.86359 171.84489 179.59579 182.91333 185.68294 193.64305 196.41266 199.73021 204.15359 209.1349 213.01035 216.3279 221.30919 224.62674 232.37764">Thatis,whencombinedwithMEMO,zoom-intransforms</tspan></text>
+<text
+           id="text710"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,324.722)"><tspan
+             id="tspan708"
+             y="0"
+             x="0 2.7696028 10.520506 15.501805 18.271408 22.694803 30.445705 34.869099 39.850399 42.620003 47.043396 55.451832 60.433132 63.202736">implementedvia</tspan></text>
+<text
+           id="text714"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,121.16,324.722)"><tspan
+             id="tspan712"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text718"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,142.516,324.722)"><tspan
+             id="tspan716"
+             y="0"
+             x="0 4.4233942 7.7409401 15.591469 20.014864 22.784466 26.659918 35.058388 40.039688 44.463085 47.232685 52.213985 55.531532 60.512833 66.709572 69.479172 77.887604 82.311005 85.080605 89.503998 93.379448 97.254898 100.02451 103.34205 108.32335 111.09295 116.07425 124.48269 127.80023 134.99323 138.31078">arealsohelpfulinclassifyingIN-S</tspan></text>
+<text
+           id="text722"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,312.767)"><tspan
+             id="tspan720"
+             y="0"
+             x="0 4.4233942 9.4046946 17.424587 20.742134 27.935131 31.252676 40.926361 43.695965 51.446865 55.870262 60.851562 65.274956 69.150406 79.113007 86.306007 91.2873 95.710701 99.028244 106.49023 113.68323 121.13525 126.11655 129.4341 133.60843 138.58972 141.35933 146.34064 151.32193 155.19739 157.96698 165.98688 169.30443 174.28572 179.26703 184.24832 192.25826 196.68166 201.66295 206.64426 214.39516 217.71269 220.4823 228.5022 231.27179">andIN-Rimages—wherewepreviouslyfoundzoom-into</tspan></text>
+<text
+           id="text726"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,300.812)"><tspan
+             id="tspan724"
+             y="0"
+             x="0 4.9812999 9.9625998">not</tspan></text>
+<text
+           id="text730"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,65.514,300.812)"><tspan
+             id="tspan728"
+             y="0"
+             x="0 4.9812999 9.4046946 12.174297 19.646248 22.41585">helpin</tspan></text>
+<text
+           id="text734"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSS10;-inkscape-font-specification:CMSS10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,95.402,300.812)"><tspan
+             id="tspan732"
+             y="0"
+             x="0 7.9142895 12.341669 17.127703">mean</tspan></text>
+<text
+           id="text738"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,117.679,300.812)"><tspan
+             id="tspan736"
+             y="0"
+             x="0">/</tspan></text>
+<text
+           id="text742"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSS10;-inkscape-font-specification:CMSS10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,120.449,300.812)"><tspan
+             id="tspan740"
+             y="0"
+             x="0 7.9142895 12.700322">max</tspan></text>
+<text
+           id="text746"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,140.236,300.812)"><tspan
+             id="tspan744"
+             y="0"
+             x="0 4.4233942 9.4046946 14.385994 17.703541 21.977495 26.908983 31.332376 34.101978 36.871582 41.852882 49.324833 52.64238 58.181583 62.604977 67.028374">aggregation(Sec.</tspan></text>
+<text
+           id="text750"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,212.2457,300.812)"><tspan
+             id="tspan748"
+             y="0"
+             x="0 4.9812999 7.4719501">4.6</tspan></text>
+<text
+           id="text754"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,224.6989,300.812)"><tspan
+             id="tspan752"
+             y="0"
+             x="0 3.3175459">).</tspan></text>
+<text
+           id="text758"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,62.067,288.681)"><tspan
+             id="tspan756"
+             y="0"
+             x="0 7.192997 15.113264 19.337406 24.169268 28.592663 31.910208 36.333603 41.314903 45.738297 51.287464 56.119328 60.951187 65.37458 71.631096 76.054489 78.824089 84.532661 87.302261 92.283562 95.601112 100.02451 107.39683 115.14773 120.12903 125.11033 129.53372 132.29337 139.11775 143.54114 148.52245 156.4427 161.73285 166.56471 173.92708 178.90837 183.33177 186.10136 190.52477 194.40021 198.82361 201.59322 205.46866 211.01784 215.99913 220.98042">Onaverage,overallthreemodelsandfvedatasets,our</tspan></text>
+<text
+           id="text762"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,276.726)"><tspan
+             id="tspan760"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text766"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,71.819,276.726)"><tspan
+             id="tspan764"
+             y="0"
+             x="0 4.9812999 9.9625998 12.732203 17.713503 22.136898 25.454443 28.771988 33.753288 37.070835 44.821739 52.473015 59.666012 64.647308 69.628609 78.485359 81.254967 90.012093 94.993393">outperformsAugMixby</tspan></text>
+<text
+           id="text770"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,175.5695,276.726)"><tspan
+             id="tspan768"
+             y="0"
+             x="0">+</tspan></text>
+<text
+           id="text774"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,181.188,276.726)"><tspan
+             id="tspan772"
+             y="0"
+             x="0">0</tspan></text>
+<text
+           id="text778"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,186.169,276.726)"><tspan
+             id="tspan776"
+             y="0"
+             x="0">.</tspan></text>
+<text
+           id="text782"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,188.936,276.726)"><tspan
+             id="tspan780"
+             y="0"
+             x="0 4.9812999">28</tspan></text>
+<text
+           id="text786"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,202.675,276.726)"><tspan
+             id="tspan784"
+             y="0"
+             x="0 4.9812999 9.9625998 12.732203 17.713503 20.483105 24.358557 30.943836 38.136833 40.906437 43.676037 52.433163 60.632385 63.401985 67.825378 70.9636 75.944901 80.368294">points,withalarger</tspan></text>
+<text
+           id="text790"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,264.771)"><tspan
+             id="tspan788"
+             y="0"
+             x="0 2.7696028 10.520506 15.501805 19.9252 24.348595 29.728399 34.709698 42.301201 45.618744 53.369648 57.793041 62.774342 67.197739 74.390732 78.814125 81.583733 84.901276 92.094276 97.195129 104.38812 109.36942 113.79282 117.11036 124.14396 126.91356 132.29337 136.71677 141.14015 146.12146 148.89105 153.06538 157.89725 162.32065 168.80629 175.83989 183.59079 188.01419 192.43758 200.02908 202.79869 210.54959 215.53088 218.84843 223.6803 228.51216 232.93555">impactonImageNet-A,whereitachievesameanimprove-</tspan></text>
+<text
+           id="text794"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,252.816)"><tspan
+             id="tspan792"
+             y="0"
+             x="0 7.7509027 12.174297 17.155598 22.18671 27.168011">mentof</tspan></text>
+<text
+           id="text798"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,82.85907,252.816)"><tspan
+             id="tspan796"
+             y="0"
+             x="0">+</tspan></text>
+<text
+           id="text802"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,88.48,252.816)"><tspan
+             id="tspan800"
+             y="0"
+             x="0">1</tspan></text>
+<text
+           id="text806"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,93.462,252.816)"><tspan
+             id="tspan804"
+             y="0"
+             x="0">.</tspan></text>
+<text
+           id="text810"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,96.229,252.816)"><tspan
+             id="tspan808"
+             y="0"
+             x="0 4.9812999">10</tspan></text>
+<text
+           id="text814"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,108.455,252.816)"><tspan
+             id="tspan812"
+             y="0"
+             x="0 4.9812999 9.9625998 12.732203 17.713503 20.483105 24.358557 29.857912 37.050911 39.820511 42.590115 47.571415 52.552715 56.976109 64.218918 71.411919 74.181519 76.951126 84.203896 89.185196 94.166496 99.745552 104.72685 108.0444 110.814 115.7953 121.37436 125.24981 129.6732 134.0966 136.8662 139.6358 144.6171 149.5984 153.47385 158.26587 163.24716 167.67056 170.9881 175.4115">points.Alignedwithourpriorsections,here,</tspan></text>
+<text
+           id="text818"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,240.861)"><tspan
+             id="tspan816"
+             y="0"
+             x="0 2.7696028 7.7509027 15.183002 18.500547 22.923943 26.799395 31.780693 34.550297 37.319901 44.204056 48.079506 53.060806 57.793041 67.994743 70.764351 75.745651 80.169044 85.94735 90.370743 95.352043 100.33334 108.08424 111.40179 114.17139 122.1614 126.58479 129.3544 134.33569 139.317 146.7491 151.17249 155.59589 163.58589 168.56718 176.00925 183.44136 188.42265 192.29811 196.7215 200.03905 205.02034 210.79866 213.56825 218.54956 223.53085 228.51216 232.93555">theresultsshowthatzoom-inalonecanbeausefulinduc-</tspan></text>
+<text
+           id="text822"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,228.906)"><tspan
+             id="tspan820"
+             y="0"
+             x="0 2.7696028 5.2901406 10.122002 16.707281 21.68858 24.458183 28.881577 32.75703 37.479301 42.460602 46.883995 49.653599 54.634899 57.404503 62.385799 69.538948 72.308548 80.059456 85.040756 88.358299 93.190163 98.022018 104.6073 109.5886 114.32083 121.51383 126.49513 130.37059 133.14018 136.45773 140.88113 145.30452 155.2173 157.98691 165.73781 170.16121 175.1425 181.73775 186.16115 188.93074 193.35414 197.2296 201.10504 203.87465 209.41385 213.83725 218.26064 221.03024 223.79985 228.78114 233.76245">tivebias,helpingimprovedownstreamimageclassifcation.</tspan></text>
+<text
+           id="text826"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,216.95)"><tspan
+             id="tspan824"
+             y="0"
+             x="0 3.3175459 10.281404 14.704798 19.686098 24.667398 27.437 30.754547 35.17794 39.053391 41.822994 46.395828 50.271278 55.252579 63.003483 69.409431 74.390732 79.690834 82.460442 87.441742 93.847694 96.617294 99.934837 104.35824 109.33954 113.21499 116.53253 121.51383 124.83138 132.58228 137.00568 139.77528 142.54488 147.52618 152.50748 158.36549 162.78888 170.53978 175.52109 180.50238 187.46625 190.23584 195.21715 201.62309 206.6044 213.56825 216.33786 219.65541 224.0788 229.0601 232.93555">Incontrast,someofthetransformationsamongthe13trans-</tspan></text>
+<text
+           id="text830"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,204.995)"><tspan
+             id="tspan828"
+             y="0"
+             x="0 3.3175459 8.2988462 11.616391 21.628805 24.94635 29.92765 34.908951 39.332344 42.101948 44.871552 49.852852 54.834152 60.971111 63.740715 70.983528 78.176521 83.157822 88.139122 96.995872 99.76548 107.00829 114.75919 119.18259 126.42539 131.40669 136.388 141.41911 146.40041 153.09528 157.51866 161.39412 165.26958 169.69296 174.67427 177.4339 180.20351 184.62691 189.66798 192.43758 199.68039 202.45 207.43129 214.1162 217.43375 221.85713 225.73259 230.7139 233.48349">formfunctionsinAugMixmaynotbeessentialtotheresult</tspan></text>
+<text
+           id="text834"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,193.04)"><tspan
+             id="tspan832"
+             y="0"
+             x="0 4.9812999 11.088374 17.175522 22.156822 26.580217 31.561518 39.342308 43.765701 49.324833 53.748226 56.51783 61.798008">ofZhangetal.[</tspan></text>
+<text
+           id="text838"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,115.2276,193.04)"><tspan
+             id="tspan836"
+             y="0"
+             x="0 4.9812999">57</tspan></text>
+<text
+           id="text842"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,125.1902,193.04)"><tspan
+             id="tspan840"
+             y="0"
+             x="0 6.1170363 9.4345818 14.415882 22.18671 26.610106 31.591404 34.361008 38.784401 41.554005 44.323608 49.304909 57.075737 60.951187 63.720791 68.702087 73.683388 76.452995 80.876389 87.541367 92.522667 98.639702 101.4093 104.72685 109.15025 114.13155 118.007 121.32454 126.30584 129.62338 137.3743 141.79768 144.56729 147.3369 152.31819 157.29948">](noablationstudiesoftransformations</tspan></text>
+<text
+           id="text846"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,181.085)"><tspan
+             id="tspan844"
+             y="0"
+             x="0 7.192997 11.616391 14.933937 21.847982 26.829281 30.146828 34.978687 39.959988 42.729591 47.710892 52.134285 59.606236 62.375839 69.847786">wereprovidedin[</tspan></text>
+<text
+           id="text850"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,123.2773,181.085)"><tspan
+             id="tspan848"
+             y="0"
+             x="0 4.9812999">57</tspan></text>
+<text
+           id="text854"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,133.2399,181.085)"><tspan
+             id="tspan852"
+             y="0"
+             x="0 3.3175459 9.125742 13.549136 18.530436 26.002386 30.425781 33.743328 40.657372 43.426975 47.850368 51.725819 58.091919 62.515316 65.583794 68.901344 73.324738 77.748131 80.517731 83.038269 87.870132 94.78418 97.55378 102.53508 106.95847 114.43042 118.85382 123.83512 128.81642 136.56732 139.88487 142.65446 147.63577">])andarelesseffectivethanzoom-in.</tspan></text>
+<text
+           id="text858"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,168.954)"><tspan
+             id="tspan856"
+             y="0"
+             x="0 5.5392056 11.078411 15.501805 19.9252 25.464405 28.781952 34.321156">Speed-up</tspan></text>
+<text
+           id="text862"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,96.858,168.954)"><tspan
+             id="tspan860"
+             y="0"
+             x="0 7.192997 12.174297 17.155598 19.9252 24.9065 29.329895 34.938839 39.920139 44.343533 49.324833 53.748226 59.287434 64.358398 69.339699">Anotherbeneftof</tspan></text>
+<text
+           id="text866"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,171.807,168.954)"><tspan
+             id="tspan864"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text870"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,192.035,168.954)"><tspan
+             id="tspan868"
+             y="0"
+             x="0 4.4233942 9.4046946 17.155598 22.136898 26.560291 29.877838 34.301231 41.573929 44.343533 51.626194 58.819191 63.800491 68.781792 77.638542 80.408142 87.68084 90.450447">comparedtoAugMixis</tspan></text>
+<text
+           id="text874"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,156.999)"><tspan
+             id="tspan872"
+             y="0"
+             x="0 3.2179198 7.641314 11.516766 14.286368 18.709763 25.075865 27.845467 32.826767 36.144314 40.567707 43.885254 48.308647 53.289948 57.713341 65.175331 67.944931 70.714539 78.465439 82.888832 90.141602 95.431747 100.41305 105.39435 108.16395 112.58734 117.01073 119.78034 122.54994 126.88367 132.5524 138.63954 143.80017 154.04172 161.79262 166.21602 168.98563 173.96692 178.94823 183.92952 190.85353 194.72897 199.71028 202.77876 206.09631 210.5197 216.8858 220.20335 223.52089 228.5022">fasterinferencetime.Typically,TTAmethodssufferfrom</tspan></text>
+<text
+           id="text878"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,145.044)"><tspan
+             id="tspan876"
+             y="0"
+             x="0 3.8754513 6.6450543 11.377289 22.864166 26.181713 31.163013 36.144314 38.913914 41.683517 49.434422 58.151695 63.132996 68.114296 76.831573 79.601173 88.876358 93.299751 98.281052 103.26235 111.01325 115.43665 120.41795 123.18755 127.61095 130.38054 133.15015 138.13145 147.4166 151.83998 156.82129 166.09647 168.86607 173.28946 177.16492 179.93452 183.25206 186.02167 188.79128 196.54218 205.25945 208.02905 211.3466 215.76999 218.5396 223.52089 226.2905 231.27179">slowruntimeduetoaugmentationandtest-timetraining</tspan></text>
+<text
+           id="text882"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,133.089)"><tspan
+             id="tspan880"
+             y="0"
+             x="0 4.9812999 8.2988462 13.280146 17.703541 22.126934 26.002386 29.877838 34.301231 38.176682 43.705925 52.313614 59.068256 64.60746 69.58876 76.91127 79.680878 84.662178 89.085571 94.196381 103.05313 109.14028 117.99703 127.52128">processes.WefndthatMEMO+</tspan></text>
+<text
+           id="text886"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,185.592,133.089)"><tspan
+             id="tspan884"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text890"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,205.863,133.089)"><tspan
+             id="tspan888"
+             y="0"
+             x="0 4.4233942 9.4046946 14.385994 18.261446 21.031048 24.9065 27.676104 32.099499 37.080799 39.850399 42.620003 49.942513 52.712116 57.135509 61.558907 66.540207 72.746902 75.51651">consistentlyleadsto</tspan></text>
+<text
+           id="text894"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,121.134)"><tspan
+             id="tspan892"
+             y="0"
+             x="0 4.4233942 12.204185 16.428328 21.260189 25.683582 29.001129 33.424522 38.405823">anaverage</tspan></text>
+<text
+           id="text898"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,95.734,121.134)"><tspan
+             id="tspan896"
+             y="0"
+             x="0">1</tspan></text>
+<text
+           id="text902"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMMI10;-inkscape-font-specification:CMMI10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,100.715,121.134)"><tspan
+             id="tspan900"
+             y="0"
+             x="0">.</tspan></text>
+<text
+           id="text906"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMR10;-inkscape-font-specification:CMR10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,103.482,121.134)"><tspan
+             id="tspan904"
+             y="0"
+             x="0">6</tspan></text>
+<text
+           id="text910"
+           style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,108.464,121.134)"><tspan
+             id="tspan908"
+             y="0"
+             x="0">⇥</tspan></text>
+<text
+           id="text914"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,119.009,121.134)"><tspan
+             id="tspan912"
+             y="0"
+             x="0 3.8754513 8.8567514 13.280146 17.703541 22.684839 26.002386 30.983686 38.764477 43.18787 48.16917 55.920074 60.901375 65.324768 68.642311 73.065712 80.836533 83.60614 91.386932 100.24368 106.33083 115.18758 125.1701 133.5885 140.78149 145.7628 150.74409 159.60085 162.37045">speed-upcomparedtoMEMO+AugMix</tspan></text>
+<text
+           id="text918"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,109.178)"><tspan
+             id="tspan916"
+             y="0"
+             x="0 3.3175459 8.607686 13.031081 17.613876">(Tab.</tspan></text>
+<text
+           id="text922"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,72.91639,109.178)"><tspan
+             id="tspan920"
+             y="0"
+             x="0 7.192997">A4</tspan></text>
+<text
+           id="text926"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,85.09069,109.178)"><tspan
+             id="tspan924"
+             y="0"
+             x="0 5.5690932 10.550393 13.041043 18.022343 23.003643 29.568996 35.038464 37.808067 45.558971 49.982365 54.963665 62.076962 67.058258 70.933708 77.130447 82.111748 84.602402 89.583702 94.565002 101.14031 106.59982 109.36942 117.12032 121.54372 126.52502 130.94841 134.26596 139.50629 144.48759 147.80513 152.63699 157.6183 160.38789 165.3692 168.13879 173.1201 180.80127 188.55217 193.53346 196.85101">;0.65s/imagevs.1.15s/image),providingmore</tspan></text>
+<g
+           transform="translate(50.112,100.143)"
+           id="g928"><path
+             id="path930"
+             style="fill:none;stroke:#000000;stroke-width:0.398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 94.499" /></g><text
+           id="text934"
+           style="font-variant:normal;font-size:5.9776001px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,60.971,93.277)"><tspan
+             id="tspan932"
+             y="0"
+             x="0">1</tspan></text>
+<text
+           id="text938"
+           style="font-variant:normal;font-size:7.97009993px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,64.458,90.465)"><tspan
+             id="tspan936"
+             y="0"
+             x="0 4.8697309 8.8547812 14.967848 20.283905 23.822628 26.922998 32.67741 36.216133 38.431824 41.085865 45.070915 51.622337 57.823074 61.808125 65.793175 69.331902 74.121933 78.106979 81.207352 84.746071 91.297493 94.83622 100.51093 106.624 110.60905 114.14777 117.24814 120.78687 123.00256 125.21824 129.20329 135.30838 137.52408 144.08347 146.29915 150.28421 152.49989 158.16664 162.59801 166.13673 169.67546">TheResNet-50modelusedasabaselineinthisSec.</tspan></text>
+<text
+           id="text942"
+           style="font-variant:normal;font-size:7.97009993px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,238.7003,90.465)"><tspan
+             id="tspan940"
+             y="0"
+             x="0 3.98505 5.9775748">4.7</tspan></text>
+<text
+           id="text946"
+           style="font-variant:normal;font-size:7.97009993px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,251.2293,90.465)"><tspan
+             id="tspan944"
+             y="0"
+             x="0 2.2156878 7.890399 11.875449 14.091137 16.545927 19.19997 22.738695 25.392738 28.931463 32.916512">isdifferent</tspan></text>
+<text
+           id="text950"
+           style="font-variant:normal;font-size:7.97009993px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,50.112,81)"><tspan
+             id="tspan948"
+             y="0"
+             x="0 2.6540432 5.3080864 9.2931366 17.486399 19.702087 23.687138 27.225863 31.434074 33.649761 39.627338 43.612389 47.597439 52.244007 56.229057 58.444744 62.429794 65.968521 70.615089 73.269127 77.254181 81.239227 85.224281 87.878319 94.963745 99.833473 106.91889 112.6733 117.31987 120.42024 123.95896 127.49769 129.71338 131.92906 135.91411 139.89917 144.99207 148.97711 153.62367 155.83937 159.82442 165.35567 169.34071 172.87944 176.86449 180.40321 182.6189">fromthatinourother(non-MEMO)sectionsofthepaper.</tspan></text>
+<text
+           id="text954"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,542.036)"><tspan
+             id="tspan952"
+             y="0"
+             x="0 5.2901406 9.7135353 14.694835 17.464437 26.241488 31.222788 40.806808 47.999805 52.831669 57.255062 60.572609 64.996002 67.765602 70.53521 77.847755 86.704506 92.791656 101.64841 113.19506">Table5:Overall,MEMO+</tspan></text>
+<text
+           id="text958"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,432.029,542.036)"><tspan
+             id="tspan956"
+             y="0"
+             x="0 5.97756 11.95512">RRC</tspan></text>
+<text
+           id="text962"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,454.314,542.036)"><tspan
+             id="tspan960"
+             y="0"
+             x="0 3.3175459 6.0871487 8.5777988 13.001193 15.491843 22.804392 26.121937 30.545332 35.52663 40.507931 45.489231 57.593792 62.017185 66.998482 71.979782 79.73069 83.048233 85.817833">(i.e.,randomzoom-in</tspan></text>
+<text
+           id="text966"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,530.081)"><tspan
+             id="tspan964"
+             y="0"
+             x="0 2.7696028 6.0871487 10.510543 15.491843 19.367294 22.684839 27.66614 30.983686 38.734589 42.610039">transforms)</tspan></text>
+<text
+           id="text970"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,357.009,530.081)"><tspan
+             id="tspan968"
+             y="0"
+             x="0 4.9812999 10.520506 13.838052 19.377256 23.800652 28.224047 31.292526 36.273827 40.69722 48.996067">outperforms</tspan></text>
+<text
+           id="text974"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,412.1,530.081)"><tspan
+             id="tspan972"
+             y="0"
+             x="0 4.9812999 9.4046946 13.280146 17.703541 20.473143 23.242746 28.224047 32.647442 38.744553 43.167946 48.149246 55.352207 58.121807 63.103107 69.738197 74.719498 79.142891 82.360817 86.78421 91.765511 94.53511 99.526375 108.38313 114.47028 123.32703 130.52002">baselinesandthedefaultMEMO.</tspan></text>
+<g
+           transform="matrix(0.84239,0,0,0.84239,308.862,516.1956)"
+           id="g976"><path
+             id="path978"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 280.458" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g980"><text
+             id="text984"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,522.842)"><tspan
+               id="tspan982"
+               y="0"
+               x="0 5.2901406 10.271441 15.252741 18.570286 26.042236 30.465631 34.889027 39.31242 44.29372 47.611267 52.03466 56.308617 63.780563 67.098114 75.396957 114.54997 117.86752 143.67065 146.9882 154.1812 157.49875 178.32057 181.63812 188.83112 192.14867 213.23949 216.55704 223.75003 227.06758 247.11234 254.30533">Top-1accuracy(%)ININ-AIN-RIN-SON</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,501.7849)"
+           id="g986"><path
+             id="path988"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 280.458" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g990"><text
+             id="text994"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,314.84,505.885)"><tspan
+               id="tspan992"
+               y="0"
+               x="0 6.6450543 11.068449 14.9439 19.367294 22.136898 24.9065 29.8878 36.801846 40.119389 45.100689 48.418236 52.841629 56.159176 61.140476 66.121773">Baseline(1-crop)</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,487.5847)"
+           id="g996"><path
+             id="path998"
+             style="fill:none;stroke:#000000;stroke-width:0.29899999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 109.598" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1000"><text
+             id="text1004"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,489.127)"><tspan
+               id="tspan1002"
+               y="0"
+               x="0 6.6450543 11.068449 14.9439 22.136898 26.560291 29.329895 32.647442 37.628738 45.100689">ResNet-50[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1006"><text
+             id="text1010"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,369.2352,489.127)"><tspan
+               id="tspan1008"
+               y="0"
+               x="0 4.9812999">18</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1012"><text
+             id="text1016"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,379.1978,489.127)"><tspan
+               id="tspan1014"
+               y="0"
+               x="0 50.221466 55.202766 60.184067 62.674717 67.656013 89.573738 94.555038 97.045685 102.02699 118.96341 123.94471 128.92601 131.41666 136.39795 153.33438 158.31567 163.29698 165.78763 170.76892 187.70535 192.68665 197.66795 200.1586 205.13989">]76.130.0036.1724.0935.92</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1018"><text
+             id="text1022"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,477.172)"><tspan
+               id="tspan1020"
+               y="0"
+               x="0 7.192997 11.616391 16.039785 21.021086 28.214083 33.195385 38.176682 43.795589 50.988586 55.969887 60.951187 69.807938 72.577538 80.049492">DeepAug+AugMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1024"><text
+             id="text1028"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,404.184,477.172)"><tspan
+               id="tspan1026"
+               y="0"
+               x="0 4.9812999">19</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1030"><text
+             id="text1034"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,414.1466,477.172)"><tspan
+               id="tspan1032"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 54.624935 59.606236 62.096886 67.078186 84.014603 88.995903 93.977203 96.467857 101.44916 118.38557 123.36687 128.34818 130.83882 135.82013 152.75655 157.73784 162.71915 165.20979 170.1911">]75.823.8746.7732.6234.81</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1036"><text
+             id="text1040"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,465.217)"><tspan
+               id="tspan1038"
+               y="0"
+               x="0 8.8567514 13.838052 19.9252 24.9065 30.525406 37.17046 42.15176 44.921364 53.778114 56.547718 64.019669">MoEx+CutMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1042"><text
+             id="text1046"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,388.1542,465.217)"><tspan
+               id="tspan1044"
+               y="0"
+               x="0 4.9812999">28</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1048"><text
+             id="text1052"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,398.1168,465.217)"><tspan
+               id="tspan1050"
+               y="0"
+               x="0 31.302488 36.283791 41.265091 43.755737 48.737038 70.654762 75.636063 78.126709 83.108009 100.04443 105.02573 110.00703 112.49768 117.47898 134.41541 139.3967 144.37801 146.86865 151.84995 168.78636 173.76767 178.74896 181.23962 186.22092">]79.047.9735.5223.9638.59</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1054"><text
+             id="text1058"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,346.039,453.262)"><tspan
+               id="tspan1056"
+               y="0"
+               x="0 7.192997 11.616391 16.597692">mean</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1060"><text
+             id="text1064"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,370.108,453.262)"><tspan
+               id="tspan1062"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1066"><text
+             id="text1070"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,380.348,453.262)"><tspan
+               id="tspan1068"
+               y="0"
+               x="0 3.8754513 6.6450543">std</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1072"><text
+             id="text1076"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,477.6,453.262)"><tspan
+               id="tspan1074"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">36.75</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1078"><text
+             id="text1082"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,502.506,453.262)"><tspan
+               id="tspan1080"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1084"><text
+             id="text1088"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,512.746,453.262)"><tspan
+               id="tspan1086"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">24.75</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,443.1705)"
+           id="g1090"><path
+             id="path1092"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 280.458" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1094"><text
+             id="text1098"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,314.84,436.305)"><tspan
+               id="tspan1096"
+               y="0"
+               x="0 8.8567514 14.9439 23.800652 33.484299 41.593857 48.786854 53.76815 58.749451 67.606201 70.375809 77.847755">MEMO+AugMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1100"><text
+             id="text1104"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,396.0053,436.305)"><tspan
+               id="tspan1102"
+               y="0"
+               x="0 4.9812999">57</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1106"><text
+             id="text1110"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,405.9679,436.305)"><tspan
+               id="tspan1108"
+               y="0"
+               x="0">]</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,428.9703)"
+           id="g1112"><path
+             id="path1114"
+             style="fill:none;stroke:#000000;stroke-width:0.29899999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 109.598" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1116"><text
+             id="text1120"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,419.547)"><tspan
+               id="tspan1118"
+               y="0"
+               x="0 6.6450543 11.068449 14.9439 22.136898 26.560291 29.329895 32.647442 37.628738 45.100689">ResNet-50[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1122"><text
+             id="text1126"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,369.2352,419.547)"><tspan
+               id="tspan1124"
+               y="0"
+               x="0 4.9812999">18</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1128"><text
+             id="text1132"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,379.1978,419.547)"><tspan
+               id="tspan1130"
+               y="0"
+               x="0 50.221466 55.202766 60.184067 62.674717 67.656013 89.573738 94.555038 97.045685 102.02699">]77.270.83</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1134"><text
+             id="text1138"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,498.161,419.547)"><tspan
+               id="tspan1136"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 34.370972 39.352268 44.333569 46.824219 51.805519">41.2827.63</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1140"><text
+             id="text1144"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,419.547)"><tspan
+               id="tspan1142"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">38.38</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1146"><text
+             id="text1150"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,407.592)"><tspan
+               id="tspan1148"
+               y="0"
+               x="0 7.192997 11.616391 16.039785 21.021086 28.214083 33.195385 38.176682 43.795589 50.988586 55.969887 60.951187 69.807938 72.577538 80.049492">DeepAug+AugMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1152"><text
+             id="text1156"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,404.184,407.592)"><tspan
+               id="tspan1154"
+               y="0"
+               x="0 4.9812999">19</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1158"><text
+             id="text1162"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,414.1466,407.592)"><tspan
+               id="tspan1160"
+               y="0"
+               x="0 15.272666 20.253965 25.235266 27.725916 32.707214 54.624935 59.606236 62.096886 67.078186 84.014603 88.995903 93.977203 96.467857 101.44916">]76.275.3550.79</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1164"><text
+             id="text1168"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,532.533,407.592)"><tspan
+               id="tspan1166"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">35.70</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1170"><text
+             id="text1174"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,407.592)"><tspan
+               id="tspan1172"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">36.42</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1176"><text
+             id="text1180"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,395.636)"><tspan
+               id="tspan1178"
+               y="0"
+               x="0 8.8567514 13.838052 19.9252 24.9065 30.525406 37.17046 42.15176 44.921364 53.778114 56.547718 64.019669">MoEx+CutMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1182"><text
+             id="text1186"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,388.1542,395.636)"><tspan
+               id="tspan1184"
+               y="0"
+               x="0 4.9812999">28</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1188"><text
+             id="text1192"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,398.1168,395.636)"><tspan
+               id="tspan1190"
+               y="0"
+               x="0 31.302488 36.283791 41.265091 43.755737 48.737038 65.673462 70.654762 75.636063 78.126709 83.108009">]79.3811.21</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1194"><text
+             id="text1198"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,498.161,395.636)"><tspan
+               id="tspan1196"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 34.370972 39.352268 44.333569 46.824219 51.805519">40.6527.07</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1200"><text
+             id="text1204"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,395.636)"><tspan
+               id="tspan1202"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">40.62</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1206"><text
+             id="text1210"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,346.038,383.681)"><tspan
+               id="tspan1208"
+               y="0"
+               x="0 7.192997 11.616391 16.597692">mean</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1212"><text
+             id="text1216"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,370.108,383.681)"><tspan
+               id="tspan1214"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1218"><text
+             id="text1222"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,380.348,383.681)"><tspan
+               id="tspan1220"
+               y="0"
+               x="0 3.8754513 6.6450543">std</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1224"><text
+             id="text1228"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,461.51,383.681)"><tspan
+               id="tspan1226"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 24.9065">39.26(</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1230"><text
+             id="text1234"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.734,383.681)"><tspan
+               id="tspan1232"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+2.51</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1236"><text
+             id="text1240"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,512.7875,383.681)"><tspan
+               id="tspan1238"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1242"><text
+             id="text1246"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,518.596,383.681)"><tspan
+               id="tspan1244"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1248"><text
+             id="text1252"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,528.835,383.681)"><tspan
+               id="tspan1250"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">24.32</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,384.557)"
+           id="g1254"><path
+             id="path1256"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 280.458" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1258"><text
+             id="text1262"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,314.84,366.724)"><tspan
+               id="tspan1260"
+               y="0"
+               x="0 8.8567514 14.9439 23.800652 33.484299">MEMO+</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1264"><text
+             id="text1268"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Mono PS';-inkscape-font-specification:NimbusMonL-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,356.433,366.724)"><tspan
+               id="tspan1266"
+               y="0"
+               x="0 5.97756 11.95512">RRC</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1270"><text
+             id="text1274"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,376.857,366.724)"><tspan
+               id="tspan1272"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1276"><text
+             id="text1280"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,380.174,366.724)"><tspan
+               id="tspan1278"
+               y="0"
+               x="0 7.7509027 13.290109 17.713503">Ours</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1282"><text
+             id="text1286"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,401.763,366.724)"><tspan
+               id="tspan1284"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,370.356)"
+           id="g1288"><path
+             id="path1290"
+             style="fill:none;stroke:#000000;stroke-width:0.29899999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 109.598" /></g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1292"><text
+             id="text1296"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,349.966)"><tspan
+               id="tspan1294"
+               y="0"
+               x="0 6.6450543 11.068449 14.9439 22.136898 26.560291 29.329895 32.647442 37.628738 45.100689">ResNet-50[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1298"><text
+             id="text1302"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,369.2352,349.966)"><tspan
+               id="tspan1300"
+               y="0"
+               x="0 4.9812999">18</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1304"><text
+             id="text1308"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,379.1978,349.966)"><tspan
+               id="tspan1306"
+               y="0"
+               x="0">]</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1310"><text
+             id="text1314"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,429.419,349.966)"><tspan
+               id="tspan1312"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 39.352268 44.333569 46.824219 51.805519">77.501.31</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1316"><text
+             id="text1320"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,498.161,349.966)"><tspan
+               id="tspan1318"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 34.370972 39.352268 44.333569 46.824219 51.805519">40.8127.53</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1322"><text
+             id="text1326"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,349.966)"><tspan
+               id="tspan1324"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">38.85</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1328"><text
+             id="text1332"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,338.011)"><tspan
+               id="tspan1330"
+               y="0"
+               x="0 7.192997 11.616391 16.039785 21.021086 28.214083 33.195385 38.176682 43.795589 50.988586 55.969887 60.951187 69.807938 72.577538 80.049492">DeepAug+AugMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1334"><text
+             id="text1338"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,404.184,338.011)"><tspan
+               id="tspan1336"
+               y="0"
+               x="0 4.9812999">19</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1340"><text
+             id="text1344"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,414.1466,338.011)"><tspan
+               id="tspan1342"
+               y="0"
+               x="0">]</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1346"><text
+             id="text1350"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,429.419,338.011)"><tspan
+               id="tspan1348"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 39.352268 44.333569 46.824219 51.805519 68.741943 73.723244 78.704536 81.19519 86.176491">76.385.7650.88</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1352"><text
+             id="text1356"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,532.533,338.011)"><tspan
+               id="tspan1354"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">35.65</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1358"><text
+             id="text1362"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,338.011)"><tspan
+               id="tspan1360"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">36.64</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1364"><text
+             id="text1368"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,320.817,326.056)"><tspan
+               id="tspan1366"
+               y="0"
+               x="0 8.8567514 13.838052 19.9252 24.9065 30.525406 37.17046 42.15176 44.921364 53.778114 56.547718 64.019669">MoEx+CutMix[</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1370"><text
+             id="text1374"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#0087f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,388.1542,326.056)"><tspan
+               id="tspan1372"
+               y="0"
+               x="0 4.9812999">28</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1376"><text
+             id="text1380"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,398.1168,326.056)"><tspan
+               id="tspan1378"
+               y="0"
+               x="0">]</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1382"><text
+             id="text1386"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,429.419,326.056)"><tspan
+               id="tspan1384"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 34.370972 39.352268 44.333569 46.824219 51.805519">79.4913.61</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1388"><text
+             id="text1392"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,498.161,326.056)"><tspan
+               id="tspan1390"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549 34.370972 39.352268 44.333569 46.824219 51.805519">40.4126.80</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1394"><text
+             id="text1398"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,566.904,326.056)"><tspan
+               id="tspan1396"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">41.43</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1400"><text
+             id="text1404"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,346.038,314.101)"><tspan
+               id="tspan1402"
+               y="0"
+               x="0 7.192997 11.616391 16.597692">mean</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1406"><text
+             id="text1410"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,370.108,314.101)"><tspan
+               id="tspan1408"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1412"><text
+             id="text1416"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-ReguItal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,380.348,314.101)"><tspan
+               id="tspan1414"
+               y="0"
+               x="0 3.8754513 6.6450543">std</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1418"><text
+             id="text1422"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,461.51,314.101)"><tspan
+               id="tspan1420"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">39.54</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1424"><text
+             id="text1428"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,486.417,314.101)"><tspan
+               id="tspan1426"
+               y="0"
+               x="0">(</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1430"><text
+             id="text1434"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#159b52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,489.7345,314.101)"><tspan
+               id="tspan1432"
+               y="0"
+               x="0 5.6189065 10.600206 13.090857 18.072157">+2.79</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1436"><text
+             id="text1440"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,512.788,314.101)"><tspan
+               id="tspan1438"
+               y="0"
+               x="0">)</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1442"><text
+             id="text1446"
+             style="font-variant:normal;font-weight:normal;font-size:9.96259975px;font-family:CMSY10;-inkscape-font-specification:CMSY10;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,518.596,314.101)"><tspan
+               id="tspan1444"
+               y="0"
+               x="0">±</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,48.67974,66.02409)"
+           id="g1448"><text
+             id="text1452"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,528.835,314.101)"><tspan
+               id="tspan1450"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">24.10</tspan></text>
+</g><g
+           transform="matrix(0.84239,0,0,0.84239,308.862,325.8172)"
+           id="g1454"><path
+             id="path1456"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 280.458" /></g><text
+           id="text1460"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,305.144)"><tspan
+             id="tspan1458"
+             y="0"
+             x="0 5.2901406 9.7135353 14.694835 17.464437 26.988684 31.969984 43.058357 48.348499 53.3298 58.311096 61.628643 71.710793 76.134186 80.557587 84.98098 89.96228 93.279823 97.703217 101.97717 112.05933 117.04063 125.45902 130.44032 133.20993 136.27841 139.59595 144.01935 147.3369 151.76028 156.74159 164.61205 169.03543 171.80504 176.22842 180.10388 183.97934 186.74893 192.28815 196.71153 200.02908 209.00539 213.98668 224.0788 226.8484 231.8297">Table6:Top-1accuracyofdifferentclassifersonthe</tspan></text>
+<text
+           id="text1464"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,293.189)"><tspan
+             id="tspan1462"
+             y="0"
+             x="0 3.3175459 11.068449 15.491843 20.473143 24.896538 32.089535 36.512928 39.282532 42.600079 49.793076 54.216469 57.534016 65.005966 69.987267 74.41066 77.18026 81.603653 85.479111 89.902504 95.162758 98.480301 106.77914">ImageNet-Harddataset(%)</tspan></text>
+<g
+           transform="matrix(0.80577,0,0,0.80577,308.862,279.3185)"
+           id="g1466"><path
+             id="path1468"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 293.199" /></g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1470"><text
+             id="text1474"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,358.834,271.569)"><tspan
+               id="tspan1472"
+               y="0"
+               x="0 7.192997 11.616391 15.491843 22.684839 27.108234 30.425781 33.743328 38.724625 55.661045 62.854042 67.277435 71.152885 78.345886 82.769279 86.08683 89.404373 94.385674 111.32209 118.14648 120.91608 126.64457 129.96211 136.60718 139.37677 144.35808 161.29449 168.18861 175.93951 183.69041 187.00797 191.98926 208.92569 216.11868 218.88829 223.31168 228.29298 235.48598 239.90938">ResNet-18ResNet-50ViT-B/32VGG-19AlexNet</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,308.862,265.5342)"
+           id="g1476"><path
+             id="path1478"
+             style="fill:none;stroke:#000000;stroke-width:0.498;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 293.199" /></g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1480"><text
+             id="text1484"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,308.862,254.612)"><tspan
+               id="tspan1482"
+               y="0"
+               x="0 7.192997 11.616391 16.039785 21.021086 24.338633 28.762026 33.03598">Accuracy</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1486"><text
+             id="text1490"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,385.1058,254.612)"><tspan
+               id="tspan1488"
+               y="0"
+               x="0 4.9812999 7.4719501 12.45325">8.65</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1492"><text
+             id="text1496"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,435.7855,254.612)"><tspan
+               id="tspan1494"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">11.52</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1498"><text
+             id="text1502"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,485.7579,254.612)"><tspan
+               id="tspan1500"
+               y="0"
+               x="0 4.9812999 9.9625998 12.45325 17.434549">16.67</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1504"><text
+             id="text1508"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,538.3704,254.612)"><tspan
+               id="tspan1506"
+               y="0"
+               x="0 4.9812999 7.4719501 12.45325">9.00</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,59.99027,51.18485)"
+           id="g1510"><text
+             id="text1514"
+             style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,584.6268,254.612)"><tspan
+               id="tspan1512"
+               y="0"
+               x="0 4.9812999 7.4719501 12.45325">5.64</tspan></text>
+</g><g
+           transform="matrix(0.80577,0,0,0.80577,308.862,251.7499)"
+           id="g1516"><path
+             id="path1518"
+             style="fill:none;stroke:#000000;stroke-width:0.79699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 293.199" /></g><text
+           id="text1522"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,221.528)"><tspan
+             id="tspan1520"
+             y="0"
+             x="0 4.1743293 9.1556292 11.925232 16.906532 21.329927 26.311226 30.734621 38.644924 41.414528 49.872776 53.748226 58.729527 63.710827 68.692123 73.673424 76.990974 83.247482 86.01709 90.99839 93.76799 101.12039 103.88999 107.20753 111.63094 116.61224 120.48769 123.80523 128.78653 132.10408 139.85498 144.27837 147.04797 149.81758 154.79887 163.26709 167.69049 175.05284 182.95319 187.93449 190.70409 195.12749 200.10878 202.87839 210.7887 215.76999 220.7513 223.52089 226.2905 231.27179">evidencetosupportthistransformationasaviableoption</tspan></text>
+<text
+           id="text1526"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,209.572)"><tspan
+             id="tspan1524"
+             y="0"
+             x="0 3.3175459 8.2988462 14.107041 16.876644 21.300039 25.175489 27.945093 31.262638 34.032242 36.801846 44.552746 51.466793 55.890186 60.871487 65.852783 73.603691 78.027084 83.008385 85.777985 90.201378 92.970985 95.740585 100.72189 105.70319 109.57864">fortest-timeaugmentations.</tspan></text>
+<text
+           id="text1530"
+           style="font-variant:normal;font-size:10.95890045px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,189.627)"><tspan
+             id="tspan1528"
+             y="0"
+             x="0 5.4794502 8.2191753 13.698625 20.799992 29.326015 34.191769 40.284916 45.150669 50.016418 55.495869 59.145184 62.191757 68.284904 78.136955 84.230103 90.323257 95.189003 98.23558 103.71503 107.97804 112.24105 115.28763 121.38078 126.86023 132.95337 135.99995 145.22734 148.27391 157.40268 162.88213 168.36159 177.58897 183.68213 189.16158 192.81088 198.29033 202.55334 207.4191 211.06842 218.58621 224.06567 230.15881">4.8.Generatingunclassifableimagedataset,and</tspan></text>
+<text
+           id="text1534"
+           style="font-variant:normal;font-size:10.95890045px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,333.519,177.672)"><tspan
+             id="tspan1532"
+             y="0"
+             x="0 4.2630119 10.35616 14.005474 18.673965 24.153416 30.246565 36.339714 41.205463 44.252037 50.345188 58.564362 62.827374 71.956139 77.435585 82.915039 87.780792 95.693115 100.55887 104.20818 107.85749 116.38351 121.86297 126.72872">IntroducingImageNet-Hard</tspan></text>
+<text
+           id="text1538"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,320.817,159.732)"><tspan
+             id="tspan1536"
+             y="0"
+             x="0 12.622614 21.230301 28.313709 33.29501 36.612556 41.03595 44.9114 49.334797 54.316093 59.735748 66.81916 71.800461 75.974785 85.827797 90.809097 95.232491 98.002098 102.42549 106.30094 110.72433 116.15395 120.57735 125.55865 130.53995 134.41541 137.17503 141.05049 143.8201 146.58969 151.571 159.21231 164.1936 170.17117 172.94078 177.92207 185.00548 189.42888 194.41017 197.17978 199.94939 204.37277 208.79617 211.56578 214.33537 219.31668">—Wepresentanewdatasetconsistingofthecollection</tspan></text>
+<text
+           id="text1542"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,147.777)"><tspan
+             id="tspan1540"
+             y="0"
+             x="0 4.9812999 11.576541 16.55784 20.981236 24.298782 32.547813 35.317417 43.068321 47.491714 52.473015 56.896408 64.049553 67.367104 70.684647 75.665947 86.694542 91.117943 93.887543 99.924881 103.24242 110.99332 115.41672 120.39802 124.82142 132.01442 136.43781 142.48511 147.21735 151.64073 154.41034 157.17995 162.16124 166.58464 169.35423 172.12384 177.10513 185.36414 189.23959 193.66298 196.43259 200.30803 208.23827 213.77747 218.20087 221.51842 224.83595 229.81726 232.93555">ofhardimagesfromallImageNetvalidationsets.Perfor-</tspan></text>
+<text
+           id="text1546"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,135.822)"><tspan
+             id="tspan1544"
+             y="0"
+             x="0 7.7509027 12.174297 17.155598 21.578991 28.493036 33.474335 39.282532 44.263832 47.033436 50.101917 53.41946 57.842857 61.1604 65.583794 70.565094 75.825348 80.248741 83.018349 87.441742 91.317192 95.192642 97.962242 103.50145 107.92484 113.73304 116.50265 122.86874 126.74419 131.72549 136.45773 143.65073 151.12268 153.89229 161.36423 166.65437 171.07777 175.66057">manceofdifferentclassiferisshowninTab.</tspan></text>
+<text
+           id="text1550"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,489.5039,135.822)"><tspan
+             id="tspan1548"
+             y="0"
+             x="0">6</tspan></text>
+<text
+           id="text1554"
+           style="font-variant:normal;font-size:11.9552002px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Medi;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,111.891)"><tspan
+             id="tspan1552"
+             y="0"
+             x="0 5.9776001 11.9552 20.586855 23.9104 28.560972 33.869083 40.516174 45.166744 49.817318 53.140865 59.118465 68.754356 74.731956 81.379044 91.014938 99.646591 105.62419 112.27129 117.57939 120.90294 127.55003 132.20061 135.52415 141.50175">5.DiscussionandConclusion</tspan></text>
+<text
+           id="text1558"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,320.817,92.955)"><tspan
+             id="tspan1556"
+             y="0"
+             x="0 8.607686 16.767056 21.190451 26.171751 31.153049 36.13435 41.11565 45.539043 48.308647 52.73204 61.439354 69.598724 74.580025 79.411888 84.243744 88.667137 91.436745 97.972206 101.28976 104.05936 109.04066 114.02196 117.3395 122.3208 127.3021 134.91353 138.78899 141.55858 146.53989 151.52118 160.23846 165.21976 173.92708 176.69667 181.67798 189.83734 194.26074 197.32922 200.64676 205.07016 209.49355 215.99913 220.98042">Weconductedanovel,rigorousstudyontheeffectof</tspan></text>
+<text
+           id="text1562"
+           style="font-variant:normal;font-size:9.96259975px;font-family:'Nimbus Roman';-inkscape-font-specification:NimbusRomNo9L-Regu;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,308.862,81)"><tspan
+             id="tspan1560"
+             y="0"
+             x="0 4.4233942 9.4046946 14.385994 22.136898 24.9065 29.8878 37.080799 41.912659 46.744518 51.167915 56.687195 63.322285 67.197739 71.621132 76.592468 81.573769 87.103012 90.978462 93.74807 100.9311 108.1241 112.54749 115.31709 118.0867 121.40424 126.38554 131.36684 136.09908 143.29207 150.48508 154.90846 157.67807 162.10147 165.97691 169.85237 172.62196 178.16118 182.58456 185.90211 191.98926 196.41266 201.39395 208.577 212.45244 215.22205 222.41504 225.18465 232.93555">zoomingoverasetofsixwell-knownclassifersandsixim-</tspan></text>
+</g></g></g></svg>
