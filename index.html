@@ -33,7 +33,7 @@
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     ol li {
       list-style: none;
@@ -434,6 +434,24 @@
   </section>
 
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">ImageNet-Hard</h2>
+          <div class="content has-text-justified">
+            We introduce ImageNet-Hard, a new benchmark where zooming in alone does not help state-of-the-art models
+            better label images.
+          </div>
+          <div>
+            <canvas id="barChart"></canvas>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <footer class="footer">
     <div class="container">
@@ -450,6 +468,71 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const results = {
+        'ResNet-18': 10.03,
+        'ResNet-50': 13.06,
+        'ViT-B/32': 16.18,
+        'VGG19': 10.77,
+        'AlexNet': 6.90,
+        'CLIP-ViT-L/14': 3.52,
+        'CLIP-ViT-L/14@336px': 3.68,
+        'EfficientNet-L2-Ns': 33.93
+      };
+
+      const labels = Object.keys(results);
+      const data = Object.values(results);
+
+      const ctx = document.getElementById('barChart').getContext('2d');
+      const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Top-1 Accuracy',
+            data: data,
+            backgroundColor: [
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(153, 102, 255, 0.2)',
+              'rgba(255, 159, 64, 0.2)',
+              'rgba(201, 203, 207, 0.2)',
+              'rgba(75, 192, 192, 0.2)'
+            ],
+            borderColor: [
+              'rgba(75, 192, 192, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(153, 102, 255, 1)',
+              'rgba(255, 159, 64, 1)',
+              'rgba(201, 203, 207, 1)',
+              'rgba(75, 192, 192, 1)'
+            ],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          plugins: {
+            legend: {
+              labels: {
+                usePointStyle: true
+              }
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    });
+  </script>
 
 </body>
 
