@@ -34,6 +34,7 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
   <style>
     ol li {
       list-style: none;
@@ -472,15 +473,16 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const results = {
-        'ResNet-18': 10.03,
-        'ResNet-50': 13.06,
-        'ViT-B/32': 16.18,
-        'VGG19': 10.77,
-        'AlexNet': 6.90,
-        'CLIP-ViT-L/14': 3.52,
-        'CLIP-ViT-L/14@336px': 3.68,
-        'EfficientNet-L2-Ns': 33.93
+        'ResNet-18': 9.21,
+        'ResNet-50': 12.29,
+        'ViT-B/32': 15.63,
+        'VGG19': 10.11,
+        'AlexNet': 6.24,
+        'CLIP-ViT-L/14': 1.83,
+        'CLIP-ViT-L/14@336px': 2.01,
+        'EfficientNet-L2-Ns': 33.54
       };
+
 
       const labels = Object.keys(results);
       const data = Object.values(results);
