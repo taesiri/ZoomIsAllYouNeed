@@ -1,0 +1,62 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Zoom Is What You Need
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mohammad Reza
+    family-names: Taesiri
+    email: mtaesiri@gmail.com
+    affiliation: University of Alberta
+  - given-names: Giang
+    email: nguyengiangbkhn@gmail.com
+    family-names: Nguyen
+    affiliation: Auburn University
+  - given-names: Sarra
+    family-names: Habchi
+    email: sarra.habchi@ubisoft.com
+    affiliation: Ubisoft
+  - given-names: Cor-Paul
+    family-names: ' Bezemer'
+    email: bezemer@ualberta.ca
+    affiliation: University of Alberta
+  - given-names: Anh
+    family-names: Nguyen
+    email: anh.ng8@gmail.com
+    affiliation: Auburn University
+repository-code: 'https://github.com/taesiri/ZoomIsAllYouNeed'
+url: 'https://taesiri.github.io/ZoomIsAllYouNeed/'
+abstract: >-
+  Image classifiers are information-discarding machines, by
+  design. Yet, how these models discard information remains
+  mysterious. We hypothesize that one way for image
+  classifiers to reach high accuracy is to first learn to
+  zoom to the most discriminative region in the image and
+  then extract features from there to predict image labels.
+  We study six popular networks ranging from AlexNet to
+  CLIP, and we show that proper framing of the input image
+  can lead to the correct classification of 98.91% of
+  ImageNet images. Furthermore, we explore the potential and
+  limits of zoom transforms in image classification and
+  uncover positional biases in various datasets, especially
+  a strong center bias in two popular datasets: ImageNet-A
+  and ObjectNet. Finally, leveraging our insights into the
+  potential of zoom, we propose a state-of-the-art test-time
+  augmentation (TTA) technique that improves classification
+  accuracy by forcing models to explicitly perform zoom-in
+  operations before making predictions. Our method is more
+  interpretable, accurate, and faster than MEMO, a
+  state-of-the-art TTA method. Additionally, we propose
+  ImageNet-Hard, a new benchmark where zooming in alone
+  often does not help state-of-the-art models better label
+  images.
+keywords:
+  - Zoom
+  - Representation Learning
+  - ImageNet-Hard
+  - Robustness
+license: MIT
