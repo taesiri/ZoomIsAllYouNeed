@@ -5,6 +5,7 @@ An empirical study of the power of zoom and spatial biases in image classificati
 <div align="center">    
 
 [![Website](http://img.shields.io/badge/Website-4b44ce.svg)](https://taesiri.github.io/ZoomIsAllYouNeed/)
+[![Supplementary Material](http://img.shields.io/badge/Supplementary%20Material-4b44ce.svg)](https://drive.google.com/drive/folders/1bTj5GUGpGp4qssZWVuYCYbUzWy14ASJ6?usp=sharing)
 [![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](https://arxiv.org/abs/TBA)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard)
 </div>
