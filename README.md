@@ -30,3 +30,14 @@ The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face D
 ## Supplementary Material
 
 You can find all the supplementary material on [Google Drive](https://drive.google.com/drive/folders/1bTj5GUGpGp4qssZWVuYCYbUzWy14ASJ6?usp=sharing).
+
+## Citation information
+
+```
+@software{Taesiri_Zoom_Is_What,
+author = {Taesiri, Mohammad Reza and Nguyen, Giang and Habchi, Sarra and  Bezemer, Cor-Paul and Nguyen, Anh},
+license = {MIT},
+title = {{Zoom Is What You Need}},
+url = {https://github.com/taesiri/ZoomIsAllYouNeed}
+}
+```
