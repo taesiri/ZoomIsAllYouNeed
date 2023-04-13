@@ -57,11 +57,12 @@ You can find all the supplementary material on [Google Drive](https://drive.goog
 
 ## Citation information
 
+
 ```
-@software{Taesiri_Zoom_Is_What,
-author = {Taesiri, Mohammad Reza and Nguyen, Giang and Habchi, Sarra and  Bezemer, Cor-Paul and Nguyen, Anh},
-license = {MIT},
-title = {{Zoom Is What You Need}},
-url = {https://github.com/taesiri/ZoomIsAllYouNeed}
+@article{taesiri2023zoom,
+Author = {Mohammad Reza Taesiri and Giang Nguyen and Sarra Habchi and Cor-Paul Bezemer and Anh Nguyen},
+Title = {Zoom is what you need: An empirical study of the power of zoom and spatial biases in image classification},
+Year = {2023},
+Eprint = {arXiv:2304.05538},
 }
 ```
