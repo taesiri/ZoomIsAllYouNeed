@@ -59,12 +59,10 @@ You can find all the supplementary material on [Google Drive](https://drive.goog
 
 
 ```
-@misc{taesiri2023zoom,
-      title={Zoom is what you need: An empirical study of the power of zoom and spatial biases in image classification}, 
-      author={Mohammad Reza Taesiri and Giang Nguyen and Sarra Habchi and Cor-Paul Bezemer and Anh Nguyen},
-      year={2023},
-      eprint={2304.05538},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{taesiri2023zoom,
+  title={Zoom is what you need: An empirical study of the power of zoom and spatial biases in image classification},
+  author={Taesiri, Mohammad Reza and Nguyen, Giang and Habchi, Sarra and Bezemer, Cor-Paul and Nguyen, Anh},
+  journal={arXiv preprint arXiv:2304.05538},
+  year={2023}
 }
 ```
