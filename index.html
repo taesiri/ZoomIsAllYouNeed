@@ -34,6 +34,8 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
 
   <style>
     ol li {
@@ -490,8 +492,21 @@
           <div class="content has-text-justified">
             We present ImageNet-Hard, a novel benchmark in which merely zooming in does not enhance the performance of
             state-of-the-art models in accurately labeling images.
+            The ImageNet-Hard is a new benchmark that comprises 13,630 images, collected from various existing
+            ImageNet-scale benchmarks (ImageNet, ImageNet-Sketch, ImageNet-C, ImageNet-R, ImageNet-ReaL, ImageNet-A, and
+            ObjectNet). This dataset is challenging to state-of-the-art vision models, as merely zooming in often fails
+            to enhance their ability to classify images correctly. Consequently, even the most advanced models, such as
+            CLIP-ViT-L/14@336px, struggle to perform well on this dataset, achieving only 2.02% accuracy.
           </div>
           <div>
+            <h4 class="title is-6">Dataset Distribution</h4>
+            <div>
+              <img src="./static/svg/imagenet_hard_distribution.svg" alt="Zooming" style="width: 100%; height: auto;">
+            </div>
+          </div>
+          <br>
+          <div>
+            <h4 class="title is-6">Performance Report</h4>
             <canvas id="barChart"></canvas>
           </div>
           <br>
@@ -529,6 +544,8 @@
       </div>
     </div>
   </footer>
+
+
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
