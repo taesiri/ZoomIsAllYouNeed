@@ -30,7 +30,14 @@ The **ImageNet-Hard** is a new benchmark that comprises an array of challenging 
 The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard).
 
 
-### Classifiers Performance
+
+### Dataset Distribution
+
+![Dataset Distribution](https://taesiri.github.io/ZoomIsAllYouNeed/static/svg/imagenet_hard_distribution.svg)
+
+
+
+### Performance Report
 
 
 | Model               | Accuracy |
