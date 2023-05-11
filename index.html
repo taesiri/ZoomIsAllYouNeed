@@ -36,7 +36,6 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 
-
   <style>
     ol li {
       list-style: none;
@@ -205,8 +204,6 @@
       </div>
     </div>
   </section>
-
-
 
 
   <section class="section">
@@ -483,7 +480,6 @@
     </div>
   </section>
 
-
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
@@ -492,11 +488,12 @@
           <div class="content has-text-justified">
             We present ImageNet-Hard, a novel benchmark in which merely zooming in does not enhance the performance of
             state-of-the-art models in accurately labeling images.
-            The ImageNet-Hard is a new benchmark that comprises 13,630 images, collected from various existing
-            ImageNet-scale benchmarks (ImageNet, ImageNet-Sketch, ImageNet-C, ImageNet-R, ImageNet-ReaL, ImageNet-A, and
+            The ImageNet-Hard is a new benchmark that comprises 11,350 images, collected from various existing
+            ImageNet-scale benchmarks (ImageNet, ImageNet-V2, ImageNet-Sketch, ImageNet-C, ImageNet-R, ImageNet-ReaL,
+            ImageNet-A, and
             ObjectNet). This dataset is challenging to state-of-the-art vision models, as merely zooming in often fails
             to enhance their ability to classify images correctly. Consequently, even the most advanced models, such as
-            CLIP-ViT-L/14@336px, struggle to perform well on this dataset, achieving only 2.02% accuracy.
+            CLIP-ViT-L/14@336px, struggle to perform well on this dataset, achieving only 2.30% accuracy.
           </div>
           <div>
             <h4 class="title is-6">Dataset Distribution</h4>
@@ -550,14 +547,16 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const results = {
-        'ResNet-18': 9.41,
-        'ResNet-50': 12.56,
-        'ViT-B/32': 15.95,
-        'VGG19': 10.32,
-        'AlexNet': 6.35,
-        'CLIP-ViT-L/14': 1.86,
-        'CLIP-ViT-L/14@336px': 2.02,
-        'EfficientNet-L2-Ns': 34.23
+        'ResNet-18': 11.11,
+        'ResNet-50': 14.91,
+        'ViT-B/32': 18.78,
+        'VGG19': 12.15,
+        'AlexNet': 7.30,
+        'CLIP-ViT-L/14': 2.11,
+        'CLIP-ViT-L/14@336px': 2.30,
+        'EfficientNet-B7': 18.02,
+        'EfficientNet-L2-Ns': 38.79,
+
       };
 
 
@@ -580,7 +579,8 @@
               'rgba(153, 102, 255, 0.2)',
               'rgba(255, 159, 64, 0.2)',
               'rgba(201, 203, 207, 0.2)',
-              'rgba(75, 192, 192, 0.2)'
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(0, 123, 255, 0.2)'
             ],
             borderColor: [
               'rgba(75, 192, 192, 1)',
@@ -590,7 +590,8 @@
               'rgba(153, 102, 255, 1)',
               'rgba(255, 159, 64, 1)',
               'rgba(201, 203, 207, 1)',
-              'rgba(75, 192, 192, 1)'
+              'rgba(75, 192, 192, 1)',
+              'rgba(0, 123, 255, 1)'
             ],
             borderWidth: 1
           }]
