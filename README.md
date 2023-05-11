@@ -41,16 +41,16 @@ The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face D
 
 
 | Model               | Accuracy |
-| ------------------- | ----- |
-| ResNet-18           | 9.41  |
-| ResNet-50           | 12.56 |
-| ViT-B/32            | 15.95 |
-| VGG19               | 10.32 |
-| AlexNet             | 6.35  |
-| CLIP-ViT-L/14@224px | 1.86  |
-| CLIP-ViT-L/14@336px | 2.02  |
-| EfficientNet-L2-Ns  | 34.23 |
-
+| ------------------- | -------- |
+| ResNet-18           | 11.11    |
+| ResNet-50           | 14.91    |
+| ViT-B/32            | 18.78    |
+| VGG19               | 12.15    |
+| AlexNet             | 7.30     |
+| EfficientNet-B7     | 18.02    |
+| EfficientNet-L2-Ns  | 38.79    |
+| CLIP-ViT-L/14@224px | 2.11     |
+| CLIP-ViT-L/14@336px | 2.30     |
 
 **Evaluation Code**
 
