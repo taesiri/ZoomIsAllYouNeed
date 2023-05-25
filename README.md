@@ -47,10 +47,11 @@ The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face D
 | ViT-B/32            | 18.52    |
 | VGG19               | 11.99    |
 | AlexNet             | 7.34     |
-| EfficientNet-B7     | 17.81    |
+| EfficientNet-B5     | 15.53    |
 | EfficientNet-L2-Ns  | 39.00    |
 | CLIP-ViT-L/14@224px | 1.86     |
 | CLIP-ViT-L/14@336px | 2.02     |
+
 
 **Evaluation Code**
 
