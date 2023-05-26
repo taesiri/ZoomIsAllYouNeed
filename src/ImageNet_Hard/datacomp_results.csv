@@ -1,0 +1,26 @@
+Model,Pretrained,Top-1 Accuracy
+ViT-L-14,datacomp_xl_s13b_b90k,15.60
+ViT-L-14,commonpool_xl_clip_s13b_b90k,11.58
+ViT-L-14,commonpool_xl_laion_s13b_b90k,11.42
+ViT-L-14,commonpool_xl_s13b_b90k,12.44
+ViT-B-16,datacomp_l_s1b_b8k,5.98
+ViT-B-16,commonpool_l_clip_s1b_b8k,4.92
+ViT-B-16,commonpool_l_laion_s1b_b8k,4.44
+ViT-B-16,commonpool_l_image_s1b_b8k,4.75
+ViT-B-16,commonpool_l_text_s1b_b8k,5.63
+ViT-B-16,commonpool_l_basic_s1b_b8k,4.44
+ViT-B-16,commonpool_l_s1b_b8k,3.83
+ViT-B-32,datacomp_m_s128m_b4k,2.79
+ViT-B-32,commonpool_m_clip_s128m_b4k,2.50
+ViT-B-32,commonpool_m_laion_s128m_b4k,2.41
+ViT-B-32,commonpool_m_image_s128m_b4k,2.72
+ViT-B-32,commonpool_m_text_s128m_b4k,2.46
+ViT-B-32,commonpool_m_basic_s128m_b4k,2.23
+ViT-B-32,commonpool_m_s128m_b4k,1.73
+ViT-B-32,datacomp_s_s13m_b4k,0.61
+ViT-B-32,commonpool_s_clip_s13m_b4k,0.84
+ViT-B-32,commonpool_s_laion_s13m_b4k,0.66
+ViT-B-32,commonpool_s_image_s13m_b4k,0.61
+ViT-B-32,commonpool_s_text_s13m_b4k,0.77
+ViT-B-32,commonpool_s_basic_s13m_b4k,0.75
+ViT-B-32,commonpool_s_s13m_b4k,0.43
