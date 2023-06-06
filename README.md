@@ -40,17 +40,22 @@ The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face D
 ### Performance Report
 
 
+
 | Model               | Accuracy |
 | ------------------- | -------- |
+| AlexNet             | 7.34     |
+| VGG-16              | 12.00    |
 | ResNet-18           | 10.86    |
 | ResNet-50           | 14.74    |
 | ViT-B/32            | 18.52    |
-| VGG19               | 11.99    |
-| AlexNet             | 7.34     |
-| EfficientNet-B0     | 16.58    |
+| EfficientNet-B0     | 16.57    |
+| EfficientNet-B7     | 23.20    |
 | EfficientNet-L2-Ns  | 39.00    |
 | CLIP-ViT-L/14@224px | 1.86     |
 | CLIP-ViT-L/14@336px | 2.02     |
+| OpenCLIP-ViT-bigG-14| 15.93    |
+| OpenCLIP-ViT-L-14   | 15.60    |
+
 
 
 **Evaluation Code**
