@@ -543,22 +543,21 @@
   </footer>
 
 
-
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const results = {
+        'AlexNet': 7.34,
+        'VGG-16': 12.00,
         'ResNet-18': 10.86,
         'ResNet-50': 14.74,
         'ViT-B/32': 18.52,
-        'VGG19': 11.99,
-        'AlexNet': 7.34,
         'CLIP-ViT-L/14': 1.86,
         'CLIP-ViT-L/14@336px': 2.02,
         'EfficientNet-B0': 16.58,
         'EfficientNet-L2-Ns': 39.00,
-
+        'OpenCLIP-ViT-bigG-14': 15.93,
+        'OpenCLIP-ViT-L-14': 15.60
       };
-
 
       const labels = Object.keys(results);
       const data = Object.values(results);
@@ -580,7 +579,9 @@
               'rgba(255, 159, 64, 0.2)',
               'rgba(201, 203, 207, 0.2)',
               'rgba(75, 192, 192, 0.2)',
-              'rgba(0, 123, 255, 0.2)'
+              'rgba(0, 123, 255, 0.2)',
+              'rgba(255, 105, 180, 0.2)',
+              'rgba(34, 139, 34, 0.2)'
             ],
             borderColor: [
               'rgba(75, 192, 192, 1)',
@@ -591,7 +592,9 @@
               'rgba(255, 159, 64, 1)',
               'rgba(201, 203, 207, 1)',
               'rgba(75, 192, 192, 1)',
-              'rgba(0, 123, 255, 1)'
+              'rgba(0, 123, 255, 1)',
+              'rgba(255, 105, 180, 1)',
+              'rgba(34, 139, 34, 1)'
             ],
             borderWidth: 1
           }]
