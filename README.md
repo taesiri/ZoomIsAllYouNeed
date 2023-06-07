@@ -61,6 +61,7 @@ The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face D
 **Evaluation Code**
 
 * CLIP <a target="_blank" href="https://colab.research.google.com/github/taesiri/ZoomIsAllYouNeed/blob/main/src/ImageNet_Hard/Prompt_Engineering_for_ImageNet_Hard.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+* [OpenCLIP](https://github.com/taesiri/ZoomIsAllYouNeed/blob/main/src/ImageNet_Hard/benchmark_openclip.py)
 * Other models <a target="_blank" href="https://colab.research.google.com/github/taesiri/ZoomIsAllYouNeed/blob/main/src/ImageNet_Hard/Benchmark_ImageNet_Hard.ipynb">  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
 
 
