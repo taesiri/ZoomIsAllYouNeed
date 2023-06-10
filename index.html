@@ -132,9 +132,9 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Zoom <img src="./static/svg/magnifying-glass-plus-solid.svg"
-                width="50" height="23"> is what you need: An empirical study of the power of zoom and
-              spatial biases in image classification </h1>
+            <h1 class="title is-1 publication-title">ImageNet-Hard: The Hardest Images Remaining from a Study of the
+              Power of Zoom <img src="./static/svg/magnifying-glass-plus-solid.svg" width="50" height="23"> and Spatial
+              Biases in Image Classification</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://taesiri.com">Mohammad Reza Taesiri</a><sup>1</sup>,</span>
@@ -213,34 +213,34 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
+
             <p>
               Image classifiers are information-discarding machines, by design. Yet, how these models discard
-              information remains mysterious. We hypothesize that one way for image classifiers to reach high accuracy
-              is to first learn to zoom to the most discriminative region in the image and then extract features from
-              there to predict image labels. We study six popular networks ranging from <a
+              information remains mysterious.
+              We hypothesize that one way for image classifiers to reach high accuracy is to first zoom to the most
+              discriminative region in the image and then extract features from there to predict image labels,
+              discarding the rest of the image.
+              Studying six popular networks ranging from <a
                 href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>
-              to <a href="https://arxiv.org/abs/2103.00020">CLIP</a>, and we show
-              that proper framing of the input image can lead to the correct classification of 98.91% of <a
-                href="https://www.image-net.org/">ImageNet</a>
-              images. Furthermore, we explore the potential and limits of zoom transforms in image classification and
-              uncover positional biases in various datasets, especially a strong center bias in two popular datasets:
-              <a href="https://github.com/hendrycks/natural-adv-examples">ImageNet-A </a>and <a
-                href="https://objectnet.dev/">ObjectNet</a>. Finally, leveraging our insights into the potential of
-              zoom, we propose a
-              state-of-the-art test-time augmentation (TTA) technique that improves classification accuracy by forcing
-              models to explicitly perform zoom-in operations before making predictions. Our method is more
-              interpretable, accurate, and faster than <a href="https://arxiv.org/abs/2110.09506">MEMO</a>, a
-              state-of-the-art TTA method.
-              Additionally, we propose ImageNet-Hard, a new benchmark where zooming in alone often does not help
-              state-of-the-art models better label images.
+              to <a href="https://arxiv.org/abs/2103.00020">CLIP</a>, we find that proper framing of the input image can
+              lead to the correct classification of 98.91% of <a href="https://www.image-net.org/">ImageNet</a> images.
+              Furthermore, we uncover positional biases in various datasets, especially a strong center bias in two
+              popular datasets: <a href="https://github.com/hendrycks/natural-adv-examples">ImageNet-A </a>and <a
+                href="https://objectnet.dev/">ObjectNet</a>.
+              Finally, leveraging our insights into the potential of zooming, we propose a test-time augmentation (TTA)
+              technique that improves classification accuracy by forcing models to explicitly perform zoom-in operations
+              before making predictions.
+              Our method is more interpretable, accurate, and faster than <a
+                href="https://arxiv.org/abs/2110.09506">MEMO</a>, a state-of-the-art (SOTA) TTA method.
+              We introduce <strong>ImageNet-Hard</strong>, a new benchmark that challenges SOTA classifiers
+              including large
+              vision-language models even when optimal zooming is allowed.
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
 
 
   <section class="section">
@@ -433,17 +433,19 @@
               This experiment also importantly informs the community of the type of image that cannot be correctly
               labeled even with an optimal zooming strategy.
             </p>
-            <p>
-              On in-distribution data (ImageNet and ImageNet-ReaL) there exists a substantial improvement when models
-              are provided with
-              an optimal zoom, either selected from 36 (b) or 324 pre-defined zoom crops (c).
-              In contrast, <span style="background-color:rgb(242,242,242)">OOD benchmarks</span>
-              still pose a significant challenge to optimal zooming
-              as none of the models (except <span style="color: #3173A3; font-style: bold">CLIP</span>) can reach ≥80%
-              accuracy.
-            </p>
 
-            <img src="./static/svg/Table1.svg" alt="Zooming" style="width: 100%; height: auto;">
+
+            <p>
+              On in-distribution data (ImageNet & ImageNet-ReaL) there exists a substantial improvement when models are
+              provided with
+              an optimal zoom, either selected from 36 (b) or 324 pre-defined zoom crops (c).
+              In contrast, <span style="background-color:rgb(242,242,242)">OOD benchmarks</span> still pose a
+              significant challenge to
+              <span style="color:rgb(160, 82, 45)">IN-trained models</span> even with optimal zooming (i.e.,
+              all upper-bound accuracy
+              scores < 80%). </p>
+
+                <img src="./static/svg/Table1.svg" alt="Zooming" style="width: 100%; height: auto;">
           </div>
           <br>
           <div class="content has-text-justified">
@@ -467,7 +469,7 @@
           <br>
           <div class="content has-text-justified">
             <p>
-              Overall, MEMO + <span style="font-style: italic;">RRC</span> (i.e., random zoom-in transforms) <span
+              MEMO + <span style="font-style: italic;">RRC</span> (i.e., random zoom-in transforms) <span
                 style="font-weight: bold">outperforms</span>
               baselines and the
               default MEMO.
