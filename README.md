@@ -74,7 +74,7 @@ You can find all the supplementary material on [Google Drive](https://drive.goog
 
 ```
 @article{taesiri2023zoom,
-  title={Zoom is what you need: An empirical study of the power of zoom and spatial biases in image classification},
+  title={ImageNet-Hard: The Hardest Images Remaining from a Study of the Power of Zoom and Spatial Biases in Image Classification},
   author={Taesiri, Mohammad Reza and Nguyen, Giang and Habchi, Sarra and Bezemer, Cor-Paul and Nguyen, Anh},
   journal={arXiv preprint arXiv:2304.05538},
   year={2023}
