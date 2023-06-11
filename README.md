@@ -1,6 +1,4 @@
-# Zoom <img src="./assets/magnifying-glass-plus-solid.svg" width="50" height="23"> is what you need
-
-An empirical study of the power of zoom and spatial biases in image classification
+# ImageNet-Hard: The Hardest Images Remaining from a Study of the Power of Zoom and Spatial Biases in Image Classification
 
 <div align="center">    
 
