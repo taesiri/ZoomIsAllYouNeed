@@ -6,6 +6,7 @@
 [![Supplementary Material](http://img.shields.io/badge/Supplementary%20Material-4b44ce.svg)](https://drive.google.com/drive/folders/1bTj5GUGpGp4qssZWVuYCYbUzWy14ASJ6?usp=sharing)
 [![arXiv](https://img.shields.io/badge/arXiv-2304.05538-b31b1b.svg)](https://arxiv.org/abs/2304.05538)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard)
+  [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/taesiri/imagenet-hard-4k)
 </div>
 
 -----
@@ -27,7 +28,7 @@ The **ImageNet-Hard** is a new benchmark that comprises an array of challenging 
 
 The ImageNet-Hard dataset is avaible to access and browser on Hugging Face:
 - **ImageNet-Hard** [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard)
-- **ImageNet-Hard-4K** [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard-4k).
+- **ImageNet-Hard-4K** [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/taesiri/imagenet-hard-4k).
 
 
 ### Dataset Distribution
