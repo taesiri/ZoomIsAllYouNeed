@@ -25,8 +25,9 @@ https://user-images.githubusercontent.com/588431/231219248-08eab4cc-6c9e-4bae-80
 
 The **ImageNet-Hard** is a new benchmark that comprises an array of challenging images, curated from several validation datasets of ImageNet. This dataset challenges state-of-the-art vision models, as merely zooming in often fails to enhance their ability to correctly classify images. Consequently, even the most advanced models, such as `CLIP-ViT-L/14@336px`, struggle to perform well on this dataset, achieving only `2.02%` accuracy.
 
-The ImageNet-Hard dataset is avaible to access and browser on  [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard).
-
+The ImageNet-Hard dataset is avaible to access and browser on Hugging Face:
+- **ImageNet-Hard** [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard)
+- **ImageNet-Hard-4K** [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red)](https://huggingface.co/datasets/taesiri/imagenet-hard-4k).
 
 
 ### Dataset Distribution
