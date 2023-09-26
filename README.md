@@ -2,6 +2,9 @@
 
 <div align="center">    
 
+by [Mohammad Reza Taesiri ](https://taesiri.ai/), [Giang Nguyen](https://giangnguyen2412.github.io/), [Sarra Habchi](https://habchisarra.github.io/), [Cor-Paul Bezemer](https://asgaard.ece.ualberta.ca/), and [Anh Nguyen](https://anhnguyen.me/). 
+
+
 [![Website](http://img.shields.io/badge/Website-4b44ce.svg)](https://taesiri.github.io/ZoomIsAllYouNeed/)
 [![Supplementary Material](http://img.shields.io/badge/Supplementary%20Material-4b44ce.svg)](https://drive.google.com/drive/folders/1bTj5GUGpGp4qssZWVuYCYbUzWy14ASJ6?usp=sharing)
 [![arXiv](https://img.shields.io/badge/arXiv-2304.05538-b31b1b.svg)](https://arxiv.org/abs/2304.05538)
@@ -71,12 +74,13 @@ You can find all the supplementary material on [Google Drive](https://drive.goog
 
 ## Citation information
 
+If you use this software, please consider citing:
 
 ```
 @article{taesiri2023zoom,
   title={ImageNet-Hard: The Hardest Images Remaining from a Study of the Power of Zoom and Spatial Biases in Image Classification},
   author={Taesiri, Mohammad Reza and Nguyen, Giang and Habchi, Sarra and Bezemer, Cor-Paul and Nguyen, Anh},
-  journal={arXiv preprint arXiv:2304.05538},
+  booktitle={Advances in Neural Information Processing Systems}
   year={2023}
 }
 ```
