@@ -11,8 +11,15 @@ sns.set(font_scale=2)
 markers = {"1 Crop": "s", "36 Crops": "X", "324 Crops": "o"}
 colors = {"1 Crop": "blue", "36 Crops": "green", "324 Crops": "red"}
 labels = ["AlexNet", "VGG-16", "ResNet-18", "ResNet-50", "ViT-B/32", "CLIP-ViT-L/14"]
-datasets = ["ImageNet", "ImageNet-ReaL", "ImageNet+ReaL", "ImageNet-A", "ImageNet-R", "ImageNet-Sketch", "ObjectNet"]
-
+datasets = [
+    "ImageNet",
+    "ImageNet-ReaL",
+    "ImageNet+ReaL",
+    "ImageNet-A",
+    "ImageNet-R",
+    "ImageNet-Sketch",
+    "ObjectNet",
+]
 
 
 crop_1_data = np.array(
@@ -47,6 +54,8 @@ crop_324_data = np.array(
         [96.78, 98.69, 98.80, 98.45, 99.20, 89.00, 93.13],
     ]
 )
+
+
 def draw_arrows(x, y, hue, **kwargs):
     """Draw arrows from '1 Crop' to '324 Crops'."""
     x_start = x[hue == "1 Crop"].values
@@ -54,7 +63,19 @@ def draw_arrows(x, y, hue, **kwargs):
     x_end = x[hue == "324 Crops"].values
     y_end = y[hue == "324 Crops"].values
     for xs, ys, xe, ye in zip(x_start, y_start, x_end, y_end):
-        plt.arrow(xs, ys, xe - xs, ye - ys, color="gray", length_includes_head=True, head_width=0.15, head_length=0.15, shape="full", linestyle="dashed")
+        plt.arrow(
+            xs,
+            ys,
+            xe - xs,
+            ye - ys,
+            color="gray",
+            length_includes_head=True,
+            head_width=0.15,
+            head_length=0.15,
+            shape="full",
+            linestyle="dashed",
+        )
+
 
 # Create DataFrame
 data = []
@@ -65,7 +86,7 @@ for i, model in enumerate(labels):
         data.append([model, dataset, "324 Crops", crop_324_data[i, j]])
 
 df = pd.DataFrame(data, columns=["Model", "Dataset", "Crop Condition", "Performance"])
-df["Model Code"] = df["Model"].astype('category').cat.codes
+df["Model Code"] = df["Model"].astype("category").cat.codes
 
 df["Model"] = pd.Categorical(df["Model"], categories=labels, ordered=True)
 df["Model Code"] = df["Model"].cat.codes
@@ -76,31 +97,45 @@ df["Row"] = "All Crops"
 
 df_combined = pd.concat([df_1_324, df])
 
+
 def generate_plots(row_filter, include_baseline=False):
     subset_data = df_combined[df_combined["Row"] == row_filter]
     for dataset in datasets:
         data = subset_data[subset_data["Dataset"] == dataset]
         g = sns.FacetGrid(data, height=8, ylim=(0, 100), aspect=1)
-        
+
         if include_baseline:
             g.map(plt.axhline, y=90, color="green", linestyle="--", linewidth=5)
-        
-        g.map(sns.scatterplot, "Model Code", "Performance", "Crop Condition", palette=colors, s=500, marker="o", legend=False)
+
+        g.map(
+            sns.scatterplot,
+            "Model Code",
+            "Performance",
+            "Crop Condition",
+            palette=colors,
+            s=500,
+            marker="o",
+            legend=False,
+        )
         g.map(draw_arrows, "Model Code", "Performance", "Crop Condition")
-        
+
         g.set_axis_labels("Model", "Performance")
         g.set_titles("{col_name}")
         g.fig.suptitle(dataset, fontsize=24)
-        
+
         for ax in g.axes.flat:
             ax.set_xticks(range(len(labels)))
             ax.set_xticklabels(labels, rotation=45)
             ax.set_yticks(range(0, 101, 20))
             ax.set_yticklabels(range(0, 101, 20))
-        
+
         suffix = "_baseline" if include_baseline else ""
         g.savefig(f"{row_filter}_{dataset}{suffix}.png", bbox_inches="tight", dpi=300)
         plt.close(g.fig)
 
-generate_plots("1 and 324 Crops")
+
+generate_plots("1 and 324 Crops", include_baseline=True)
+generate_plots("1 and 324 Crops", include_baseline=False)
 generate_plots("All Crops", include_baseline=True)
+generate_plots("All Crops", include_baseline=False)
+
